@@ -1,15 +1,19 @@
 save_slot = {
+    optimize_memory
     if = { limit = { has_country_flag = team$TEAM$_slot$SLOT$_selected} event_target:chosen_country = { save_global_event_target_as = team$TEAM$_slot$SLOT$ set_country_flag = is_already_in_team set_country_flag = team$TEAM$ } event_target:chosen_country_name = { save_global_event_target_as = team$TEAM$_slot$SLOT$_name } }
 }
 save_team = {
+    optimize_memory
     save_slot = { TEAM = $TEAM$ SLOT = 1 } save_slot = { TEAM = $TEAM$ SLOT = 2 } save_slot = { TEAM = $TEAM$ SLOT = 3 } save_slot = { TEAM = $TEAM$ SLOT = 4 } save_slot = { TEAM = $TEAM$ SLOT = 5 } save_slot = { TEAM = $TEAM$ SLOT = 6 } save_slot = { TEAM = $TEAM$ SLOT = 7 } save_slot = { TEAM = $TEAM$ SLOT = 8 } save_slot = { TEAM = $TEAM$ SLOT = 9 } save_slot = { TEAM = $TEAM$ SLOT = 10 }
 }
 #save_team_and_slot_entity_and_name = {
 coop_menu_select_country = {
+    optimize_memory
     save_team = { TEAM = 1 } save_team = { TEAM = 2 } save_team = { TEAM = 3 } save_team = { TEAM = 4 } save_team = { TEAM = 5 } save_team = { TEAM = 6 } save_team = { TEAM = 7 } save_team = { TEAM = 8 } save_team = { TEAM = 9 } save_team = { TEAM = 10 }
 }
 
 remove_teams = {
+    optimize_memory
     remove_country_flag = team1
     remove_country_flag = team2
     remove_country_flag = team3
@@ -24,6 +28,7 @@ remove_teams = {
 }
 
 set_coop_difficulty = {
+    optimize_memory
     set_coop_difficulty_by_team = { NUM = 1 }
     set_coop_difficulty_by_team = { NUM = 2 }
     set_coop_difficulty_by_team = { NUM = 3 }
@@ -37,6 +42,7 @@ set_coop_difficulty = {
 }
 
 prepare_coop = {
+    optimize_memory
     set_country_flag = ai_no_leave_fed 
     set_country_flag = has_chosen_federation 
     set_country_flag = is_in_coop_with@prev
@@ -101,7 +107,7 @@ prepare_coop = {
 # }
 
 set_federation_type_by_team = {
-
+    optimize_memory
     if = {
         limit = {  has_country_flag = team$NUM$ } 
         # if = {
@@ -133,6 +139,7 @@ set_federation_type_by_team = {
 }
 
 set_coop_difficulty_by_team = {
+    optimize_memory
     if = { limit = { has_global_flag = team$NUM$isStrong } every_country = { limit = { has_country_flag = team$NUM$ OR = { is_ai = yes NOT = { has_global_flag = player_is_not_strong } } }  add_modifier = { modifier = difficulty_strong } } }
     else_if = { limit = { has_global_flag = team$NUM$isStronger } every_country = { limit = { has_country_flag = team$NUM$ OR = { is_ai = yes  NOT = { has_global_flag = player_is_not_strong } } }  add_modifier = { modifier = difficulty_stronger } } }
     else_if = { limit = { has_global_flag = team$NUM$isMuchStronger } every_country = { limit = { has_country_flag = team$NUM$ OR = { is_ai = yes  NOT = { has_global_flag = player_is_not_strong } } }  add_modifier = { modifier = difficulty_much_stronger } } }
@@ -225,6 +232,7 @@ set_coop_difficulty_by_team = {
 }
 
 setGalacticUnion = {
+    optimize_memory
     if = {
         limit = { has_country_flag = team$NUM$_settings_selected }                    
         set_global_flag = team$NUM$UseGalacticUnion
@@ -236,6 +244,7 @@ setGalacticUnion = {
     }
 }
 setHegemony = {
+    optimize_memory
     if = {
         limit = { has_country_flag = team$NUM$_settings_selected }            
         remove_global_flag = team$NUM$UseGalacticUnion
@@ -247,6 +256,7 @@ setHegemony = {
     }
 }
 setTradeLeague = {
+    optimize_memory
     if = {
         limit = { has_country_flag = team$NUM$_settings_selected }            
         remove_global_flag = team$NUM$UseGalacticUnion
@@ -258,6 +268,7 @@ setTradeLeague = {
     }
 }
 setResearchCoop = {
+    optimize_memory
     if = {
         limit = { has_country_flag = team$NUM$_settings_selected }            
         remove_global_flag = team$NUM$UseGalacticUnion
@@ -269,6 +280,7 @@ setResearchCoop = {
     }
 }
 setMartialAlliance = {
+    optimize_memory
     if = {
         limit = { has_country_flag = team$NUM$_settings_selected }            
         remove_global_flag = team$NUM$UseGalacticUnion
@@ -281,6 +293,7 @@ setMartialAlliance = {
 }
 
 setNoFedButVassal = {
+    optimize_memory
     if = {
         limit = { has_country_flag = team$NUM$_settings_selected }            
         remove_global_flag = team$NUM$UseGalacticUnion
@@ -293,6 +306,7 @@ setNoFedButVassal = {
 }
 
 removeAllSlotSelectedFlags = {
+    optimize_memory
     remove_country_flag = team1_slot1_selected
     remove_country_flag = team1_slot2_selected
     remove_country_flag = team1_slot3_selected
@@ -405,6 +419,7 @@ removeAllSlotSelectedFlags = {
 }
 
 setNoFedButVassals = {
+    optimize_memory
     setNoFedButVassal = { NUM = 1 }
     setNoFedButVassal = { NUM = 2 }
     setNoFedButVassal = { NUM = 3 }
@@ -418,6 +433,7 @@ setNoFedButVassals = {
 }
 
 setMartialAlliances = {
+    optimize_memory
     setMartialAlliance = { NUM = 1 }
     setMartialAlliance = { NUM = 2 }
     setMartialAlliance = { NUM = 3 }
@@ -431,6 +447,7 @@ setMartialAlliances = {
 }
 
 setResearchCoops = {
+    optimize_memory
     setResearchCoop = { NUM = 1 }
     setResearchCoop = { NUM = 2 }
     setResearchCoop = { NUM = 3 }
@@ -444,6 +461,7 @@ setResearchCoops = {
 }
 
 setTradeLeagues = {
+    optimize_memory
     setTradeLeague = { NUM = 1 }
     setTradeLeague = { NUM = 2 }
     setTradeLeague = { NUM = 3 }
@@ -457,6 +475,7 @@ setTradeLeagues = {
 }
 
 setHegemonys = {
+    optimize_memory
     setHegemony = { NUM = 1 }
     setHegemony = { NUM = 2 }
     setHegemony = { NUM = 3 }
@@ -470,6 +489,7 @@ setHegemonys = {
 }
 
 setGalacticUnions = {
+    optimize_memory
     setGalacticUnion = { NUM = 1 }
     setGalacticUnion = { NUM = 2 }
     setGalacticUnion = { NUM = 3 }
@@ -483,6 +503,7 @@ setGalacticUnions = {
 }
 
 makeStrong = {
+    optimize_memory
     makeStrongByTeam = { NUM = 1 STRONG = $STRONG$ }
     makeStrongByTeam = { NUM = 2 STRONG = $STRONG$ }
     makeStrongByTeam = { NUM = 3 STRONG = $STRONG$ }
@@ -496,6 +517,7 @@ makeStrong = {
 }
 
 makeStrongByTeam = {
+    optimize_memory
     if = {
         limit = { has_country_flag = team$NUM$_settings_selected }
         remove_global_flag = team$NUM$isStrong
@@ -507,6 +529,7 @@ makeStrongByTeam = {
 }
 
 makeAdvanced = {
+    optimize_memory
     makeAdvancedByTeam = { NUM = 1 STRONG = $STRONG$ }
     makeAdvancedByTeam = { NUM = 2 STRONG = $STRONG$ }
     makeAdvancedByTeam = { NUM = 3 STRONG = $STRONG$ }
@@ -520,6 +543,7 @@ makeAdvanced = {
 }
 
 makeAdvancedByTeam = {
+    optimize_memory
     if = {
         limit = { has_country_flag = team$NUM$_settings_selected }
         remove_global_flag = team$NUM$isAdvanced
@@ -530,6 +554,7 @@ makeAdvancedByTeam = {
 }
 
 auto_fill = {
+    optimize_memory
     set_country_flag = team1_slot1_selected
     auto_fill_country = { COUNTRY = 0 }
     set_country_flag = team2_slot1_selected
@@ -733,6 +758,7 @@ auto_fill = {
 }
 
 auto_fill_country = {
+    optimize_memory
     if = {
         limit = { exists = event_target:country$COUNTRY$ event_target:country$COUNTRY$ = { has_federation = no not = { has_country_flag = is_already_in_team } } }
         event_target:country$COUNTRY$ = { save_event_target_as = chosen_country } event_target:country$COUNTRY$_name = { save_event_target_as = chosen_country_name }  coop_menu_select_country = yes     
@@ -741,21 +767,26 @@ auto_fill_country = {
     removeAllSlotSelectedFlags = yes
 }
 
-clear_slot = {   
+clear_slot = {
+    optimize_memory   
     if = { limit = {  has_country_flag = team$TEAM$_slot$SLOT$_selected exists = event_target:team$TEAM$_slot$SLOT$ } event_target:team$TEAM$_slot$SLOT$ = { remove_teams = yes } set_country_flag = show_clear_slot clear_global_event_target = team$TEAM$_slot$SLOT$ }
 }
 clear_slots = {
+    optimize_memory
     clear_slot = { TEAM = 1 SLOT = $SLOT$ } clear_slot = { TEAM = 2 SLOT = $SLOT$ } clear_slot = { TEAM = 3 SLOT = $SLOT$ } clear_slot = { TEAM = 4 SLOT = $SLOT$ } clear_slot = { TEAM = 5 SLOT = $SLOT$ } clear_slot = { TEAM = 6 SLOT = $SLOT$ } clear_slot = { TEAM = 7 SLOT = $SLOT$ } clear_slot = { TEAM = 8 SLOT = $SLOT$ } clear_slot = { TEAM = 9 SLOT = $SLOT$ } clear_slot = { TEAM = 10 SLOT = $SLOT$ }
 }
 clear_all_slots = {
+    optimize_memory
     clear_slots = { SLOT = 1 } clear_slots = { SLOT = 2 } clear_slots = { SLOT = 3 } clear_slots = { SLOT = 4 } clear_slots = { SLOT = 5 } clear_slots = { SLOT = 6 } clear_slots = { SLOT = 7 } clear_slots = { SLOT = 8 } clear_slots = { SLOT = 9 } clear_slots = { SLOT = 10 }
 }
 
 choose_country = {
+    optimize_memory
     hidden_effect = { event_target:country$COUNTRY$ = { save_event_target_as = chosen_country }  event_target:country$COUNTRY$_name = { save_event_target_as = chosen_country_name }  coop_menu_select_country = yes country_event = { id = coop.1000 } }
 }
 
 find_and_save_all_countries = {
+    optimize_memory
     find_country = { COUNTRY = 0 } find_country = { COUNTRY = 1 } find_country = { COUNTRY = 2 } find_country = { COUNTRY = 3 } find_country = { COUNTRY = 4 } find_country = { COUNTRY = 5 } find_country = { COUNTRY = 6 } find_country = { COUNTRY = 7 } find_country = { COUNTRY = 8 } find_country = { COUNTRY = 9 } 
     find_country = { COUNTRY = 10 } find_country = { COUNTRY = 11 } find_country = { COUNTRY = 12 } find_country = { COUNTRY = 13 } find_country = { COUNTRY = 14 } find_country = { COUNTRY = 15 } find_country = { COUNTRY = 16 } find_country = { COUNTRY = 17 } find_country = { COUNTRY = 18 } find_country = { COUNTRY = 19 } 
     find_country = { COUNTRY = 20 } find_country = { COUNTRY = 21 } find_country = { COUNTRY = 22 } find_country = { COUNTRY = 23 } find_country = { COUNTRY = 24 } find_country = { COUNTRY = 25 } find_country = { COUNTRY = 26 } find_country = { COUNTRY = 27 } find_country = { COUNTRY = 28 } find_country = { COUNTRY = 29 } 
@@ -770,5 +801,6 @@ find_and_save_all_countries = {
 }
 
 find_country = {
+    optimize_memory
     random_playable_country = { limit = { has_federation = no  NOT = { has_country_flag = selected } if = { limit = { any_playable_country = { is_ai = no NOT = { has_country_flag = selected } } } is_ai = no } } save_event_target_as = country$COUNTRY$ country_event = { id = coop.40 } } event_target:temp_leader = { save_event_target_as = country$COUNTRY$_name } 
 }
