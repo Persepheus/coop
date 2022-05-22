@@ -1,0 +1,15 @@
+once = {
+	# this is applied only once per country
+	federation = {
+		trigger = {
+			has_federation = yes
+			NOT =  { has_global_flag = influence_Cost_For_Federation_Off }
+		}
+		resources = {
+			category = federation
+			upkeep = {
+				influence = 1
+			}
+		}
+	}
+}
