@@ -46,8 +46,8 @@ prepare_coop = {
     set_country_flag = ai_no_leave_fed 
     set_country_flag = has_chosen_federation 
     set_country_flag = is_in_coop_with@prev
-    if = {
-        limit = { has_federation = no  }     
+    # if = {
+    #     limit = { has_federation = no  }     
         set_federation_type_by_team = { NUM = 1 }
         set_federation_type_by_team = { NUM = 2 }
         set_federation_type_by_team = { NUM = 3 }
@@ -58,7 +58,7 @@ prepare_coop = {
         set_federation_type_by_team = { NUM = 8 }
         set_federation_type_by_team = { NUM = 9 }
         set_federation_type_by_team = { NUM = 10 }  
-    }           
+    #}           
     set_closed_borders = { who = prev status = no }  
       
     capital_scope = {
@@ -93,33 +93,80 @@ prepare_coop = {
     }
 }
 
-# set_correct_federation_type = {
-#     set_federation_type_by_team = { NUM = 1 }
-#     set_federation_type_by_team = { NUM = 2 }
-#     set_federation_type_by_team = { NUM = 3 }
-#     set_federation_type_by_team = { NUM = 4 }
-#     set_federation_type_by_team = { NUM = 5 }
-#     set_federation_type_by_team = { NUM = 6 }
-#     set_federation_type_by_team = { NUM = 7 }
-#     set_federation_type_by_team = { NUM = 8 }
-#     set_federation_type_by_team = { NUM = 9 }
-#     set_federation_type_by_team = { NUM = 10 }
-# }
+coop_change_subject_type = {
+    coop_change_subject_type_by_team = { NUM = 1 SLOT = $SLOT$ }
+    coop_change_subject_type_by_team = { NUM = 2 SLOT = $SLOT$  }
+    coop_change_subject_type_by_team = { NUM = 3  SLOT = $SLOT$ }
+    coop_change_subject_type_by_team = { NUM = 4  SLOT = $SLOT$ }
+    coop_change_subject_type_by_team = { NUM = 5  SLOT = $SLOT$ }
+    coop_change_subject_type_by_team = { NUM = 6  SLOT = $SLOT$ }
+    coop_change_subject_type_by_team = { NUM = 7  SLOT = $SLOT$ }
+    coop_change_subject_type_by_team = { NUM = 8  SLOT = $SLOT$ }
+    coop_change_subject_type_by_team = { NUM = 9  SLOT = $SLOT$ }
+    coop_change_subject_type_by_team = { NUM = 10  SLOT = $SLOT$ }
+}
+
+coop_change_subject_type_by_team = {
+    if = {
+        limit = { has_country_flag = team$NUM$_settings_selected }
+        if = {
+            limit = { has_country_flag = team$NUM$_slot$SLOT$_is_bulwark }
+            remove_country_flag = team$NUM$_slot$SLOT$_is_bulwark
+            set_country_flag = team$NUM$_slot$SLOT$_is_prospectorium
+            event_target:team$NUM$_slot$SLOT$ = {
+                remove_country_flag = is_bulwark
+                set_country_flag = is_prospectorium
+            }
+        }
+        else_if = {
+            limit = { has_country_flag = team$NUM$_slot$SLOT$_is_prospectorium }
+            remove_country_flag = team$NUM$_slot$SLOT$_is_prospectorium
+            set_country_flag = team$NUM$_slot$SLOT$_is_scholarium
+            event_target:team$NUM$_slot$SLOT$ = {
+                remove_country_flag = is_prospectorium
+                set_country_flag = is_scholarium
+            }
+        }
+        else_if = {
+            limit = { has_country_flag = team$NUM$_slot$SLOT$_is_scholarium }
+            remove_country_flag = team$NUM$_slot$SLOT$_is_scholarium     
+            event_target:team$NUM$_slot$SLOT$ = {
+                remove_country_flag = is_scholarium                
+            }       
+        }
+        else = {
+            set_country_flag = team$NUM$_slot$SLOT$_is_bulwark
+            event_target:team$NUM$_slot$SLOT$ = {                
+                set_country_flag = is_bulwark
+            }
+        }
+    }
+}
+
 
 set_federation_type_by_team = {
     optimize_memory
     if = {
         limit = {  has_country_flag = team$NUM$ } 
-        # if = {
-            # limit = { has_global_flag = team$NUM$UseNoFedButVassal }
-            # if = {
-            #     limit = { is_overlord = no is_subject = no }                            
-            #     set_subject_of = { who = event_target:team$NUM$_slot1 subject_type = coop_vassal  }                
-            #     add_opinion_modifier = { who = prev modifier = opinion_war_in_heaven_ally } 
-            #     prev = { add_opinion_modifier = { who = prev modifier = opinion_war_in_heaven_ally } }                
-            # }
-        # }
-        # else = {
+        if = {
+            limit = { is_overlord = no is_subject = no not = { is_same_empire = event_target:team$NUM$_slot1  } } 
+            if = {
+                limit = {  has_country_flag = is_bulwark  }                                            
+                set_subject_of = { who = event_target:team$NUM$_slot1 allow_instant_negotiation = yes preset = preset_bulwark }              
+            }
+            else_if = {
+                limit = {  has_country_flag = is_scholarium  }                                            
+                set_subject_of = { who = event_target:team$NUM$_slot1 allow_instant_negotiation = yes preset = preset_scholarium }                                               
+            }
+            else_if = {
+                limit = {  has_country_flag = is_prospectorium  }                                            
+                set_subject_of = { who = event_target:team$NUM$_slot1 allow_instant_negotiation = yes preset = preset_prospectorium }                                               
+            }
+            add_opinion_modifier = { who = event_target:team$NUM$_slot1 modifier = opinion_war_in_heaven_ally } 
+            event_target:team$NUM$_slot1 = { add_opinion_modifier = { who = prev modifier = opinion_war_in_heaven_ally } } 
+        }
+        if = {
+            limit = { has_federation = no  }   
             join_alliance = { who = prev override_requirements = yes }  
             federation = {
                 if = {
@@ -134,7 +181,7 @@ set_federation_type_by_team = {
                     else_if = { limit = { has_global_flag = team$NUM$UseMartialAlliance } set_federation_type = military_federation }  
                 }
             }
-        # }     
+        }     
     }
 }
 
@@ -802,5 +849,5 @@ find_and_save_all_countries = {
 
 find_country = {
     optimize_memory
-    random_playable_country = { limit = { has_federation = no  NOT = { has_country_flag = selected } if = { limit = { any_playable_country = { is_ai = no NOT = { has_country_flag = selected } } } is_ai = no } } save_event_target_as = country$COUNTRY$ country_event = { id = coop.40 } } event_target:temp_leader = { save_event_target_as = country$COUNTRY$_name } 
+    random_playable_country = { limit = { has_federation = no is_overlord = no is_subject = no  NOT = { has_country_flag = selected } if = { limit = { any_playable_country = { is_ai = no has_federation = no is_overlord = no is_subject = no NOT = { has_country_flag = selected } } } is_ai = no } } save_event_target_as = country$COUNTRY$ country_event = { id = coop.40 } } event_target:temp_leader = { save_event_target_as = country$COUNTRY$_name } 
 }

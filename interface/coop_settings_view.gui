@@ -1,0 +1,3355 @@
+guiTypes = {
+	
+	### SLOT 1
+
+	containerWindowType = {
+		name = "boep_slot_1_empty"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=0 y= 0 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light" 
+			position = { x=0 y=0 }
+			size = { x = 80 y = 80 }			
+		}		
+	}
+	containerWindowType = {
+		name = "boep_slot_1_GFX_boep_building_private_mining_consortium"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=0 y= 0 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light" 
+			position = { x=0 y=0 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_private_mining_consortium"
+			spriteType = "GFX_boep_building_private_mining_consortium"
+			position = { x=-25 y= 0 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_1_GFX_boep_building_food_conglomerate"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=0 y= 0 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=0 y=0 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_food_conglomerate"
+			spriteType = "GFX_boep_building_food_conglomerate"
+			position = { x=-25 y= 0 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_1_GFX_boep_building_virtual_entertainment_studios"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=0 y= 0 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=0 y=0 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_virtual_entertainment_studios"
+			spriteType = "GFX_boep_building_virtual_entertainment_studios"
+			position = { x=-25 y= 0 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_1_GFX_boep_building_private_shipyards"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=0 y= 0 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=0 y=0 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_private_shipyards"
+			spriteType = "GFX_boep_building_private_shipyards"
+			position = { x=-25 y= 0 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_1_GFX_boep_building_military_contractors"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=0 y= 0 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=0 y=0 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_military_contractors"
+			spriteType = "GFX_boep_building_military_contractors"
+			position = { x=-25 y= 0 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_1_GFX_boep_building_public_relations_office"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=0 y= 0 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=0 y=0 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_public_relations_office"
+			spriteType = "GFX_boep_building_public_relations_office"
+			position = { x=-25 y= 0 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_1_GFX_boep_building_private_research_initiative"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=0 y= 0 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=0 y=0 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_private_research_initiative"
+			spriteType = "GFX_boep_building_private_research_initiative"
+			position = { x=-25 y= 0 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_1_GFX_boep_building_amusement_megaplex"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=0 y= 0 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=0 y=0 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_amusement_megaplex"
+			spriteType = "GFX_boep_building_amusement_megaplex"
+			position = { x=-25 y= 0 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_1_GFX_boep_building_commercial_forum"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=0 y= 0 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=0 y=0 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_commercial_forum"
+			spriteType = "GFX_boep_building_commercial_forum"
+			position = { x=-25 y= 0 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_1_GFX_boep_building_corporate_embassy"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=0 y= 0 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=0 y=0 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_corporate_embassy"
+			spriteType = "GFX_boep_building_corporate_embassy"
+			position = { x=-25 y= 0 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_1_GFX_boep_building_wildcat_miners"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=0 y= 0 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=0 y=0 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_wildcat_miners"
+			spriteType = "GFX_boep_building_wildcat_miners"
+			position = { x=-25 y= 0 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_1_GFX_boep_building_bio_reprocessing_facilities"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=0 y= 0 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=0 y=0 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_bio_reprocessing_facilities"
+			spriteType = "GFX_boep_building_bio_reprocessing_facilities"
+			position = { x=-25 y= 0 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_1_GFX_boep_building_underground_chemists"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=0 y= 0 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=0 y=0 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_underground_chemists"
+			spriteType = "GFX_boep_building_underground_chemists"
+			position = { x=-25 y= 0 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_1_GFX_boep_building_wrecking_yards"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=0 y= 0 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=0 y=0 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_wrecking_yards"
+			spriteType = "GFX_boep_building_wrecking_yards"
+			position = { x=-25 y= 0 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_1_GFX_boep_building_pirate_haven"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=0 y= 0 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=0 y=0 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_pirate_haven"
+			spriteType = "GFX_boep_building_pirate_haven"
+			position = { x=-25 y= 0 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_1_GFX_boep_building_underground_clubs"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=0 y= 0 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=0 y=0 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_underground_clubs"
+			spriteType = "GFX_boep_building_underground_clubs"
+			position = { x=-25 y= 0 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_1_GFX_boep_building_syndicate_outreach_office"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=0 y= 0 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=0 y=0 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_syndicate_outreach_office"
+			spriteType = "GFX_boep_building_syndicate_outreach_office"
+			position = { x=-25 y= 0 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_1_GFX_boep_building_illicit_research_labs"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=0 y= 0 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=0 y=0 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_illicit_research_labs"
+			spriteType = "GFX_boep_building_illicit_research_labs"
+			position = { x=-25 y= 0 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_1_GFX_boep_building_smuggling_rings"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=0 y= 0 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=0 y=0 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_smuggling_rings"
+			spriteType = "GFX_boep_building_smuggling_rings"
+			position = { x=-25 y= 0 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_1_GFX_boep_building_disinformation_center"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=0 y= 0 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=0 y=0 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_disinformation_center"
+			spriteType = "GFX_boep_building_disinformation_center"
+			position = { x=-25 y= 0 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_1_GFX_boep_building_subversive_shrine"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=0 y= 0 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=0 y=0 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_subversive_shrine"
+			spriteType = "GFX_boep_building_subversive_shrine"
+			position = { x=-25 y= 0 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_1_GFX_boep_building_temple_of_prosperity"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=0 y= 0 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=0 y=0 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_temple_of_prosperity"
+			spriteType = "GFX_boep_building_temple_of_prosperity"
+			position = { x=-25 y= 0 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_1_GFX_boep_building_executive_retreat"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=0 y= 0 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=0 y=0 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_executive_retreat"
+			spriteType = "GFX_boep_building_executive_retreat"
+			position = { x=-25 y= 0 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_1_GFX_boep_building_xeno_tourism_agency"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=0 y= 0 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=0 y=0 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_xeno_tourism_agency"
+			spriteType = "GFX_boep_building_xeno_tourism_agency"
+			position = { x=-25 y= 0 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_1_GFX_boep_building_imperial_concession_port"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=0 y= 0 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=0 y=0 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_imperial_concession_port"
+			spriteType = "GFX_boep_building_imperial_concession_port"
+			position = { x=-25 y= 0 }
+			alwaysTransparent = yes
+		}
+	}
+	
+	
+	
+	### SLOT 2
+	containerWindowType = {
+		name = "boep_slot_2_empty"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=90 y= -80 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light" 
+			position = { x=90 y=-80 }
+			size = { x = 80 y = 80 }			
+		}		
+	}
+	containerWindowType = {
+		name = "boep_slot_2_GFX_boep_building_private_mining_consortium"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=90 y= -80 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light" 
+			position = { x=90 y=-80 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_private_mining_consortium"
+			spriteType = "GFX_boep_building_private_mining_consortium"
+			position = { x=65 y= -80 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_2_GFX_boep_building_food_conglomerate"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=90 y= -80 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=90 y=-80 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_food_conglomerate"
+			spriteType = "GFX_boep_building_food_conglomerate"
+			position = { x=65 y= -80 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_2_GFX_boep_building_virtual_entertainment_studios"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=90 y= -80 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=90 y=-80 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_virtual_entertainment_studios"
+			spriteType = "GFX_boep_building_virtual_entertainment_studios"
+			position = { x=65 y= -80 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_2_GFX_boep_building_private_shipyards"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=90 y= -80 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=90 y=-80 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_private_shipyards"
+			spriteType = "GFX_boep_building_private_shipyards"
+			position = { x=65 y= -80 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_2_GFX_boep_building_military_contractors"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=90 y= -80 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=90 y=-80 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_military_contractors"
+			spriteType = "GFX_boep_building_military_contractors"
+			position = { x=65 y= -80 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_2_GFX_boep_building_public_relations_office"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=90 y= -80 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=90 y=-80 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_public_relations_office"
+			spriteType = "GFX_boep_building_public_relations_office"
+			position = { x=65 y= -80 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_2_GFX_boep_building_private_research_initiative"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=90 y= -80 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=90 y=-80 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_private_research_initiative"
+			spriteType = "GFX_boep_building_private_research_initiative"
+			position = { x=65 y= -80 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_2_GFX_boep_building_amusement_megaplex"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=90 y= -80 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=90 y=-80 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_amusement_megaplex"
+			spriteType = "GFX_boep_building_amusement_megaplex"
+			position = { x=65 y= -80 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_2_GFX_boep_building_commercial_forum"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=90 y= -80 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=90 y=-80 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_commercial_forum"
+			spriteType = "GFX_boep_building_commercial_forum"
+			position = { x=65 y= -80 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_2_GFX_boep_building_corporate_embassy"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=90 y= -80 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=90 y=-80 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_corporate_embassy"
+			spriteType = "GFX_boep_building_corporate_embassy"
+			position = { x=65 y= -80 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_2_GFX_boep_building_wildcat_miners"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=90 y= -80 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=90 y=-80 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_wildcat_miners"
+			spriteType = "GFX_boep_building_wildcat_miners"
+			position = { x=65 y= -80 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_2_GFX_boep_building_bio_reprocessing_facilities"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=90 y= -80 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=90 y=-80 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_bio_reprocessing_facilities"
+			spriteType = "GFX_boep_building_bio_reprocessing_facilities"
+			position = { x=65 y= -80 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_2_GFX_boep_building_underground_chemists"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=90 y= -80 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=90 y=-80 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_underground_chemists"
+			spriteType = "GFX_boep_building_underground_chemists"
+			position = { x=65 y= -80 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_2_GFX_boep_building_wrecking_yards"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=90 y= -80 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=90 y=-80 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_wrecking_yards"
+			spriteType = "GFX_boep_building_wrecking_yards"
+			position = { x=65 y= -80 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_2_GFX_boep_building_pirate_haven"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=90 y= -80 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=90 y=-80 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_pirate_haven"
+			spriteType = "GFX_boep_building_pirate_haven"
+			position = { x=65 y= -80 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_2_GFX_boep_building_underground_clubs"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=90 y= -80 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=90 y=-80 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_underground_clubs"
+			spriteType = "GFX_boep_building_underground_clubs"
+			position = { x=65 y= -80 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_2_GFX_boep_building_syndicate_outreach_office"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=90 y= -80 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=90 y=-80 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_syndicate_outreach_office"
+			spriteType = "GFX_boep_building_syndicate_outreach_office"
+			position = { x=65 y= -80 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_2_GFX_boep_building_illicit_research_labs"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=90 y= -80 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=90 y=-80 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_illicit_research_labs"
+			spriteType = "GFX_boep_building_illicit_research_labs"
+			position = { x=65 y= -80 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_2_GFX_boep_building_smuggling_rings"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=90 y= -80 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=90 y=-80 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_smuggling_rings"
+			spriteType = "GFX_boep_building_smuggling_rings"
+			position = { x=65 y= -80 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_2_GFX_boep_building_disinformation_center"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=90 y= -80 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=90 y=-80 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_disinformation_center"
+			spriteType = "GFX_boep_building_disinformation_center"
+			position = { x=65 y= -80 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_2_GFX_boep_building_subversive_shrine"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=90 y= -80 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=90 y=-80 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_subversive_shrine"
+			spriteType = "GFX_boep_building_subversive_shrine"
+			position = { x=65 y= -80 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_2_GFX_boep_building_temple_of_prosperity"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=90 y= -80 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=90 y=-80 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_temple_of_prosperity"
+			spriteType = "GFX_boep_building_temple_of_prosperity"
+			position = { x=65 y= -80 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_2_GFX_boep_building_executive_retreat"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=90 y= -80 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=90 y=-80 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_executive_retreat"
+			spriteType = "GFX_boep_building_executive_retreat"
+			position = { x=65 y= -80 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_2_GFX_boep_building_xeno_tourism_agency"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=90 y= -80 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=90 y=-80 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_xeno_tourism_agency"
+			spriteType = "GFX_boep_building_xeno_tourism_agency"
+			position = { x=65 y= -80 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_2_GFX_boep_building_imperial_concession_port"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=90 y= -80 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=90 y=-80 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_imperial_concession_port"
+			spriteType = "GFX_boep_building_imperial_concession_port"
+			position = { x=65 y= -80 }
+			alwaysTransparent = yes
+		}
+	}
+	
+	### SLOT 3
+
+	
+	containerWindowType = {
+		name = "boep_slot_3_empty"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=180 y= -160 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light" 
+			position = { x=180 y=-160 }
+			size = { x = 80 y = 80 }			
+		}		
+	}
+	containerWindowType = {
+		name = "boep_slot_3_GFX_boep_building_private_mining_consortium"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=180 y= -160 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light" 
+			position = { x=180 y=-160 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_private_mining_consortium"
+			spriteType = "GFX_boep_building_private_mining_consortium"
+			position = { x=155 y= -160 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_3_GFX_boep_building_food_conglomerate"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=180 y= -160 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=180 y=-160 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_food_conglomerate"
+			spriteType = "GFX_boep_building_food_conglomerate"
+			position = { x=155 y= -160 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_3_GFX_boep_building_virtual_entertainment_studios"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=180 y= -160 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=180 y=-160 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_virtual_entertainment_studios"
+			spriteType = "GFX_boep_building_virtual_entertainment_studios"
+			position = { x=155 y= -160 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_3_GFX_boep_building_private_shipyards"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=180 y= -160 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=180 y=-160 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_private_shipyards"
+			spriteType = "GFX_boep_building_private_shipyards"
+			position = { x=155 y= -160 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_3_GFX_boep_building_military_contractors"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=180 y= -160 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=180 y=-160 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_military_contractors"
+			spriteType = "GFX_boep_building_military_contractors"
+			position = { x=155 y= -160 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_3_GFX_boep_building_public_relations_office"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=180 y= -160 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=180 y=-160 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_public_relations_office"
+			spriteType = "GFX_boep_building_public_relations_office"
+			position = { x=155 y= -160 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_3_GFX_boep_building_private_research_initiative"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=180 y= -160 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=180 y=-160 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_private_research_initiative"
+			spriteType = "GFX_boep_building_private_research_initiative"
+			position = { x=155 y= -160 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_3_GFX_boep_building_amusement_megaplex"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=180 y= -160 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=180 y=-160 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_amusement_megaplex"
+			spriteType = "GFX_boep_building_amusement_megaplex"
+			position = { x=155 y= -160 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_3_GFX_boep_building_commercial_forum"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=180 y= -160 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=180 y=-160 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_commercial_forum"
+			spriteType = "GFX_boep_building_commercial_forum"
+			position = { x=155 y= -160 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_3_GFX_boep_building_corporate_embassy"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=180 y= -160 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=180 y=-160 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_corporate_embassy"
+			spriteType = "GFX_boep_building_corporate_embassy"
+			position = { x=155 y= -160 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_3_GFX_boep_building_wildcat_miners"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=180 y= -160 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=180 y=-160 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_wildcat_miners"
+			spriteType = "GFX_boep_building_wildcat_miners"
+			position = { x=155 y= -160 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_3_GFX_boep_building_bio_reprocessing_facilities"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=180 y= -160 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=180 y=-160 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_bio_reprocessing_facilities"
+			spriteType = "GFX_boep_building_bio_reprocessing_facilities"
+			position = { x=155 y= -160 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_3_GFX_boep_building_underground_chemists"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=180 y= -160 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=180 y=-160 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_underground_chemists"
+			spriteType = "GFX_boep_building_underground_chemists"
+			position = { x=155 y= -160 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_3_GFX_boep_building_wrecking_yards"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=180 y= -160 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=180 y=-160 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_wrecking_yards"
+			spriteType = "GFX_boep_building_wrecking_yards"
+			position = { x=155 y= -160 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_3_GFX_boep_building_pirate_haven"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=180 y= -160 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=180 y=-160 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_pirate_haven"
+			spriteType = "GFX_boep_building_pirate_haven"
+			position = { x=155 y= -160 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_3_GFX_boep_building_underground_clubs"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=180 y= -160 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=180 y=-160 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_underground_clubs"
+			spriteType = "GFX_boep_building_underground_clubs"
+			position = { x=155 y= -160 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_3_GFX_boep_building_syndicate_outreach_office"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=180 y= -160 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=180 y=-160 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_syndicate_outreach_office"
+			spriteType = "GFX_boep_building_syndicate_outreach_office"
+			position = { x=155 y= -160 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_3_GFX_boep_building_illicit_research_labs"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=180 y= -160 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=180 y=-160 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_illicit_research_labs"
+			spriteType = "GFX_boep_building_illicit_research_labs"
+			position = { x=155 y= -160 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_3_GFX_boep_building_smuggling_rings"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=180 y= -160 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=180 y=-160 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_smuggling_rings"
+			spriteType = "GFX_boep_building_smuggling_rings"
+			position = { x=155 y= -160 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_3_GFX_boep_building_disinformation_center"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=180 y= -160 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=180 y=-160 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_disinformation_center"
+			spriteType = "GFX_boep_building_disinformation_center"
+			position = { x=155 y= -160 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_3_GFX_boep_building_subversive_shrine"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=180 y= -160 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=180 y=-160 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_subversive_shrine"
+			spriteType = "GFX_boep_building_subversive_shrine"
+			position = { x=155 y= -160 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_3_GFX_boep_building_temple_of_prosperity"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=180 y= -160 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=180 y=-160 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_temple_of_prosperity"
+			spriteType = "GFX_boep_building_temple_of_prosperity"
+			position = { x=155 y= -160 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_3_GFX_boep_building_executive_retreat"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=180 y= -160 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=180 y=-160 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_executive_retreat"
+			spriteType = "GFX_boep_building_executive_retreat"
+			position = { x=155 y= -160 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_3_GFX_boep_building_xeno_tourism_agency"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=180 y= -160 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=180 y=-160 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_xeno_tourism_agency"
+			spriteType = "GFX_boep_building_xeno_tourism_agency"
+			position = { x=155 y= -160 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_3_GFX_boep_building_imperial_concession_port"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=180 y= -160 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=180 y=-160 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_imperial_concession_port"
+			spriteType = "GFX_boep_building_imperial_concession_port"
+			position = { x=155 y= -160 }
+			alwaysTransparent = yes
+		}
+	}
+	
+	
+
+	### SLOT 4
+
+	containerWindowType = {
+		name = "boep_slot_4_empty"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=270 y= -240 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light" 
+			position = { x=270 y=-240 }
+			size = { x = 80 y = 80 }			
+		}		
+	}
+	containerWindowType = {
+		name = "boep_slot_4_GFX_boep_building_private_mining_consortium"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=270 y= -240 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light" 
+			position = { x=270 y=-240 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_private_mining_consortium"
+			spriteType = "GFX_boep_building_private_mining_consortium"
+			position = { x=245 y= -240 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_4_GFX_boep_building_food_conglomerate"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=270 y= -240 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=270 y=-240 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_food_conglomerate"
+			spriteType = "GFX_boep_building_food_conglomerate"
+			position = { x=245 y= -240 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_4_GFX_boep_building_virtual_entertainment_studios"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=270 y= -240 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=270 y=-240 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_virtual_entertainment_studios"
+			spriteType = "GFX_boep_building_virtual_entertainment_studios"
+			position = { x=245 y= -240 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_4_GFX_boep_building_private_shipyards"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=270 y= -240 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=270 y=-240 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_private_shipyards"
+			spriteType = "GFX_boep_building_private_shipyards"
+			position = { x=245 y= -240 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_4_GFX_boep_building_military_contractors"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=270 y= -240 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=270 y=-240 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_military_contractors"
+			spriteType = "GFX_boep_building_military_contractors"
+			position = { x=245 y= -240 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_4_GFX_boep_building_public_relations_office"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=270 y= -240 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=270 y=-240 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_public_relations_office"
+			spriteType = "GFX_boep_building_public_relations_office"
+			position = { x=245 y= -240 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_4_GFX_boep_building_private_research_initiative"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=270 y= -240 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=270 y=-240 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_private_research_initiative"
+			spriteType = "GFX_boep_building_private_research_initiative"
+			position = { x=245 y= -240 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_4_GFX_boep_building_amusement_megaplex"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=270 y= -240 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=270 y=-240 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_amusement_megaplex"
+			spriteType = "GFX_boep_building_amusement_megaplex"
+			position = { x=245 y= -240 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_4_GFX_boep_building_commercial_forum"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=270 y= -240 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=270 y=-240 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_commercial_forum"
+			spriteType = "GFX_boep_building_commercial_forum"
+			position = { x=245 y= -240 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_4_GFX_boep_building_corporate_embassy"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=270 y= -240 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=270 y=-240 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_corporate_embassy"
+			spriteType = "GFX_boep_building_corporate_embassy"
+			position = { x=245 y= -240 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_4_GFX_boep_building_wildcat_miners"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=270 y= -240 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=270 y=-240 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_wildcat_miners"
+			spriteType = "GFX_boep_building_wildcat_miners"
+			position = { x=245 y= -240 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_4_GFX_boep_building_bio_reprocessing_facilities"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=270 y= -240 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=270 y=-240 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_bio_reprocessing_facilities"
+			spriteType = "GFX_boep_building_bio_reprocessing_facilities"
+			position = { x=245 y= -240 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_4_GFX_boep_building_underground_chemists"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=270 y= -240 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=270 y=-240 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_underground_chemists"
+			spriteType = "GFX_boep_building_underground_chemists"
+			position = { x=245 y= -240 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_4_GFX_boep_building_wrecking_yards"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=270 y= -240 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=270 y=-240 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_wrecking_yards"
+			spriteType = "GFX_boep_building_wrecking_yards"
+			position = { x=245 y= -240 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_4_GFX_boep_building_pirate_haven"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=270 y= -240 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=270 y=-240 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_pirate_haven"
+			spriteType = "GFX_boep_building_pirate_haven"
+			position = { x=245 y= -240 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_4_GFX_boep_building_underground_clubs"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=270 y= -240 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=270 y=-240 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_underground_clubs"
+			spriteType = "GFX_boep_building_underground_clubs"
+			position = { x=245 y= -240 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_4_GFX_boep_building_syndicate_outreach_office"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=270 y= -240 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=270 y=-240 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_syndicate_outreach_office"
+			spriteType = "GFX_boep_building_syndicate_outreach_office"
+			position = { x=245 y= -240 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_4_GFX_boep_building_illicit_research_labs"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=270 y= -240 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=270 y=-240 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_illicit_research_labs"
+			spriteType = "GFX_boep_building_illicit_research_labs"
+			position = { x=245 y= -240 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_4_GFX_boep_building_smuggling_rings"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=270 y= -240 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=270 y=-240 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_smuggling_rings"
+			spriteType = "GFX_boep_building_smuggling_rings"
+			position = { x=245 y= -240 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_4_GFX_boep_building_disinformation_center"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=270 y= -240 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=270 y=-240 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_disinformation_center"
+			spriteType = "GFX_boep_building_disinformation_center"
+			position = { x=245 y= -240 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_4_GFX_boep_building_subversive_shrine"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=270 y= -240 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=270 y=-240 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_subversive_shrine"
+			spriteType = "GFX_boep_building_subversive_shrine"
+			position = { x=245 y= -240 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_4_GFX_boep_building_temple_of_prosperity"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=270 y= -240 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=270 y=-240 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_temple_of_prosperity"
+			spriteType = "GFX_boep_building_temple_of_prosperity"
+			position = { x=245 y= -240 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_4_GFX_boep_building_executive_retreat"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=270 y= -240 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=270 y=-240 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_executive_retreat"
+			spriteType = "GFX_boep_building_executive_retreat"
+			position = { x=245 y= -240 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_4_GFX_boep_building_xeno_tourism_agency"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=270 y= -240 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=270 y=-240 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_xeno_tourism_agency"
+			spriteType = "GFX_boep_building_xeno_tourism_agency"
+			position = { x=245 y= -240 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "boep_slot_4_GFX_boep_building_imperial_concession_port"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 80 }
+		
+		iconType = {
+			name = "GFX_building_bg"
+			spriteType = "GFX_building_bg"
+			position = { x=270 y= -240 }
+			alwaysTransparent = yes
+			scale = 0.9 frame = 2
+		}
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_light"
+			position = { x=270 y=-240 }
+			size = { x = 80 y = 80 }			
+		}		
+		iconType = {
+			name = "GFX_boep_building_imperial_concession_port"
+			spriteType = "GFX_boep_building_imperial_concession_port"
+			position = { x=245 y= -240 }
+			alwaysTransparent = yes
+		}
+	}
+	
+	
+
+	# CLOSE Button
+
+	containerWindowType = {
+		name = "boep_hide_close"
+		position = { x=0 y=0 }
+		size = { width = 288 height = 65 }
+		
+		moveable = no
+		
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_tiles_frame_light" ###"GFX_glow_tile_orange"
+			position = { x=-2000 y=8 }
+			size = { x = 800 y = 70 }
+			multiline = yes
+			format = LEFT
+			#font = "malgun_goth_24"
+			font = "cg_16b"
+			text = "OPTION_TEXT"
+			text = ""
+			borderSize = { x = 10 y = 0 }
+		}
+		
+		OverlappingElementsBoxType = {
+			name = "trigger_icons"
+			position = { x = 0  y = 10 }
+			size = { x=65 y= 28 }
+			
+		}
+	}
+
+	### DEFAULT EVENT WINDOW ###
+
+	containerWindowType = {
+		name = "boep_automation_view"
+		orientation = center
+		origo = center
+		moveable = yes
+		size = { 
+			width = 1050 height = 660						
+		}
+		# if_resolution = {				
+		# 	min_height = 1440 # min_height or max_height
+		# 	size = { 
+		# 		width = 1500 height = 1200 						
+		# 	}			
+		# }
+		#if_resolution = {				
+		#	max_height = 1200 # min_height or max_height
+		#	size = { 
+		#		width = 990 height = 680						
+		#	}			 
+		#}
+		
+
+		background = {
+			name = "background"
+			quadTextureSprite ="GFX_tile_large_bg"
+		}
+
+		iconType = {
+			name = "hex_bg"
+			spriteType = "GFX_hex_bg"
+			position = { x = -10 y = -14 }
+			alwaysTransparent = yes
+		}
+
+		iconType = {
+			name = "empire_header_line"
+			quadTextureSprite = "GFX_line_long"
+			position = { x = 6 y = 22 }
+			alwaysTransparent = yes
+		}
+		
+		buttonType = {
+			name = "focus_button"
+			position = { x = -80 y = 12 }
+			orientation = "UPPER_RIGHT"
+			spriteType = "GFX_fleetview_focus"
+			buttonFont = "cg_16b"
+			shortcut = "q"
+		}
+
+		
+		
+		buttonType = {
+			name = "close"
+			quadTextureSprite = "GFX_close"
+			position = { x= -42 y = 12 }
+			Orientation = "UPPER_RIGHT"
+			shortcut = "ESCAPE"
+			clicksound = "back_click"
+		}
+
+		instantTextBoxType = {
+			name = "heading"
+			font = "malgun_goth_24"
+			text = "DIPLOMACY"
+			position = { x = -2220 y = 5 }
+			maxWidth = 543
+			maxHeight = 22
+			fixedSize = yes
+			alwaysTransparent = yes
+		}
+		
+		buttonType = {
+			name = "alien_message_background"
+			size = { x = 485 y = 240 }
+			# if_resolution = {				
+			# 	min_height = 1440 # min_height or max_height
+			# 	size = { x = 685 y = 640 }		
+			# }
+			position = { x = -2210 y = 430 }
+			spriteType = "GFX_tiles_dark_area_cut_8"
+			alwaysTransparent = yes
+		}
+		
+		instantTextBoxType = {
+			name = "alien_message"
+			font = "cg_16b"
+			position = { x = -2220 y = 440 }
+			maxWidth = 665
+			maxHeight = 220
+			# if_resolution = {				
+			# 	min_height = 1440 # min_height or max_height
+			# 	maxHeight = 620	
+			# }
+			format = left
+			scrollbartype = "standardtext_slider"
+		}
+
+		buttonType = {
+			name = "confirm_button"
+			quadTextureSprite = "GFX_standard_button_142_34_button"
+			position = { x= -175 y = 564  }
+			Orientation = "UPPER_RIGHT"
+			font = "cg_16b"
+			text = "MESSAGE_OK"
+			clicksound = "confirmation"
+		}
+
+		effectButtonType = {
+			name = "boep_checkbox_deactivate_auto_establish" effect = "boep_checkbox_deactivate_auto_establish"
+			frame = 2 position = { x= 50 y = 100 } quadTextureSprite = "GFX_checkbox_20_20_01" clicksound = "tab_click" 
+		}
+		effectButtonType = {
+			name = "boep_checkbox_activate_auto_establish" effect = "boep_checkbox_activate_auto_establish"
+			position = { x= 50 y = 100 } quadTextureSprite = "GFX_checkbox_20_20_01" clicksound = "tab_click" 
+		}
+		instantTextBoxType = {
+			name = "boep_checkbox_activate_auto_establish_text"
+			position = { x = 86 y = 106 }
+			maxWidth = 150
+			alwaysTransparent = yes
+			text_color_code = "E"				
+			format = left
+			font = "cg_16b"
+			text = "boep_activate_auto_establish"			
+		}		
+
+		instantTextBoxType = {
+			name = "boep_minimum_resources_after_auto_establishing"
+			position = { x = 50 y = 135 }	
+			maxWidth = 400		
+			alwaysTransparent = yes			
+			format = left
+			font = "cg_16b"
+			text = "boep_minimum_resources_after_auto_establishing"			
+		}
+
+		effectButtonType = {
+			name = "boep_auto_establish_min_energy" effect = "boep_no_cklick"
+			position = { x= 50 y = 160 } quadTextureSprite = "GFX_tiles_dark_area_cut_8" size = { x = 180 y = 32 }			
+			buttonText = "boep_auto_establish_min_energy" font = "cg_16b" buttonFont = "cg_16b"			
+		}
+
+		effectButtonType = {
+			name = "boep_auto_establish_add_100_energy" effect = "boep_auto_establish_add_100_energy"
+			position = { x= 50 y = 187 } quadTextureSprite = "GFX_button_75_24" clicksound = "tab_click" 
+			buttonText = "boep_auto_establish_add_100_energy" font = "cg_16b" buttonFont = "cg_16b" #text_color_code = "E"
+		}
+		effectButtonType = {
+			name = "boep_auto_establish_add_1000_energy" effect = "boep_auto_establish_add_1000_energy"
+			position = { x= 130 y = 187 } quadTextureSprite = "GFX_button_75_24" clicksound = "tab_click" 
+			buttonText = "boep_auto_establish_add_1000_energy" font = "cg_16b" buttonFont = "cg_16b" #text_color_code = "E"
+		}
+		effectButtonType = {
+			name = "boep_auto_establish_remove_100_energy" effect = "boep_auto_establish_remove_100_energy"
+			position = { x= 50 y = 213 } quadTextureSprite = "GFX_button_75_24" clicksound = "tab_click" 
+			buttonText = "boep_auto_establish_remove_100_energy" font = "cg_16b" buttonFont = "cg_16b" #text_color_code = "E"
+		}
+		effectButtonType = {
+			name = "boep_auto_establish_remove_1000_energy" effect = "boep_auto_establish_remove_1000_energy"
+			position = { x= 130 y = 213 } quadTextureSprite = "GFX_button_75_24" clicksound = "tab_click" 
+			buttonText = "boep_auto_establish_remove_1000_energy" font = "cg_16b" buttonFont = "cg_16b" #text_color_code = "E"
+		}
+
+		effectButtonType = {
+			name = "boep_auto_establish_min_influence" effect = "boep_no_cklick"
+			position = { x= 250 y = 160 } quadTextureSprite = "GFX_tiles_dark_area_cut_8" size = { x = 180 y = 32 }			
+			buttonText = "boep_auto_establish_min_influence" font = "cg_16b" buttonFont = "cg_16b"			
+		}
+
+		effectButtonType = {
+			name = "boep_auto_establish_add_10_influence" effect = "boep_auto_establish_add_10_influence"
+			position = { x= 250 y = 187 } quadTextureSprite = "GFX_button_75_24" clicksound = "tab_click" 
+			buttonText = "boep_auto_establish_add_10_influence" font = "cg_16b" buttonFont = "cg_16b" #text_color_code = "E"
+		}
+		effectButtonType = {
+			name = "boep_auto_establish_add_100_influence" effect = "boep_auto_establish_add_100_influence"
+			position = { x= 330 y = 187 } quadTextureSprite = "GFX_button_75_24" clicksound = "tab_click" 
+			buttonText = "boep_auto_establish_add_100_influence" font = "cg_16b" buttonFont = "cg_16b" #text_color_code = "E"
+		}
+		effectButtonType = {
+			name = "boep_auto_establish_remove_10_influence" effect = "boep_auto_establish_remove_10_influence"
+			position = { x= 250 y = 213 } quadTextureSprite = "GFX_button_75_24" clicksound = "tab_click" 
+			buttonText = "boep_auto_establish_remove_10_influence" font = "cg_16b" buttonFont = "cg_16b" #text_color_code = "E"
+		}
+		effectButtonType = {
+			name = "boep_auto_establish_remove_100_influence" effect = "boep_auto_establish_remove_100_influence"
+			position = { x= 330 y = 213 } quadTextureSprite = "GFX_button_75_24" clicksound = "tab_click" 
+			buttonText = "boep_auto_establish_remove_100_influence" font = "cg_16b" buttonFont = "cg_16b" #text_color_code = "E"
+		}
+
+####
+
+		
+		instantTextBoxType = {
+			name = "boep_auto_establish_prio_text"
+			position = { x = 486 y = 106 }
+			maxWidth = 150
+			alwaysTransparent = yes
+			text_color_code = "E"				
+			format = left
+			font = "cg_16b"
+			text = "boep_auto_establish_prio_text"			
+		}		
+		effectButtonType = {
+			name = "boep_checkbox_deactivate_auto_establish_prio_income" effect = "boep_checkbox_deactivate_auto_establish_prio_income"
+			frame = 2 position = { x= 450 y = 130 } quadTextureSprite = "GFX_checkbox_20_20_01" clicksound = "tab_click" 
+		}
+		effectButtonType = {
+			name = "boep_checkbox_activate_auto_establish_prio_income" effect = "boep_checkbox_activate_auto_establish_prio_income"
+			position = { x= 450 y = 130 } quadTextureSprite = "GFX_checkbox_20_20_01" clicksound = "tab_click" 
+		}
+		instantTextBoxType = {
+			name = "boep_auto_establish_prio_income"
+			position = { x = 486 y = 136 }
+			maxWidth = 150
+			alwaysTransparent = yes
+			text_color_code = "E"				
+			format = left
+			font = "cg_16b"
+			text = "boep_auto_establish_prio_income"			
+		}		
+		effectButtonType = {
+			name = "boep_checkbox_deactivate_auto_establish_prio_roi" effect = "boep_checkbox_deactivate_auto_establish_prio_roi"
+			frame = 2 position = { x= 450 y = 160 } quadTextureSprite = "GFX_checkbox_20_20_01" clicksound = "tab_click" 
+		}
+		effectButtonType = {
+			name = "boep_checkbox_activate_auto_establish_prio_roi" effect = "boep_checkbox_activate_auto_establish_prio_roi"
+			position = { x= 450 y = 160 } quadTextureSprite = "GFX_checkbox_20_20_01" clicksound = "tab_click" 
+		}
+		instantTextBoxType = {
+			name = "boep_auto_establish_prio_roi"
+			position = { x = 486 y = 166 }
+			maxWidth = 150
+			alwaysTransparent = yes
+			text_color_code = "E"				
+			format = left
+			font = "cg_16b"
+			text = "boep_auto_establish_prio_roi"			
+		}		
+		effectButtonType = {
+			name = "boep_checkbox_deactivate_auto_establish_prio_cost" effect = "boep_checkbox_deactivate_auto_establish_prio_cost"
+			frame = 2 position = { x= 450 y = 190 } quadTextureSprite = "GFX_checkbox_20_20_01" clicksound = "tab_click" 
+		}
+		effectButtonType = {
+			name = "boep_checkbox_activate_auto_establish_prio_cost" effect = "boep_checkbox_activate_auto_establish_prio_cost"
+			position = { x= 450 y = 190 } quadTextureSprite = "GFX_checkbox_20_20_01" clicksound = "tab_click" 
+		}
+		instantTextBoxType = {
+			name = "boep_auto_establish_prio_cost_text"
+			position = { x = 486 y = 196 }
+			maxWidth = 150
+			alwaysTransparent = yes
+			text_color_code = "E"				
+			format = left
+			font = "cg_16b"
+			text = "boep_auto_establish_prio_cost_text"			
+		}		
+
+####
+
+		effectButtonType = {
+			name = "boep_checkbox_deactivate_auto_establish_max_cost" effect = "boep_checkbox_deactivate_auto_establish_max_cost"
+			frame = 2 position = { x= 630 y = 100 } quadTextureSprite = "GFX_checkbox_20_20_01" clicksound = "tab_click" 
+		}
+		effectButtonType = {
+			name = "boep_checkbox_activate_auto_establish_max_cost" effect = "boep_checkbox_activate_auto_establish_max_cost"
+			position = { x= 630 y = 100 } quadTextureSprite = "GFX_checkbox_20_20_01" clicksound = "tab_click" 
+		}
+		instantTextBoxType = {
+			name = "boep_checkbox_activate_auto_establish_text_max_cost"
+			position = { x = 666 y = 106 }
+			maxWidth = 150
+			alwaysTransparent = yes
+			text_color_code = "E"				
+			format = left
+			font = "cg_16b"
+			text = "boep_activate_auto_establish_max_cost"			
+		}		
+
+		instantTextBoxType = {
+			name = "boep_auto_establishing_max_cost"
+			position = { x = 630 y = 135 }	
+			maxWidth = 400		
+			alwaysTransparent = yes			
+			format = left
+			font = "cg_16b"
+			text = "boep_auto_establishing_max_cost"			
+		}
+
+		effectButtonType = {
+			name = "boep_auto_establish_min_energy_max_cost" effect = "boep_no_cklick"
+			position = { x= 630 y = 160 } quadTextureSprite = "GFX_tiles_dark_area_cut_8" size = { x = 180 y = 32 }			
+			buttonText = "boep_auto_establish_min_energy_max_cost" font = "cg_16b" buttonFont = "cg_16b"			
+		}
+
+		effectButtonType = {
+			name = "boep_auto_establish_add_10_percent_max_cost" effect = "boep_auto_establish_add_10_percent_max_cost"
+			position = { x= 690 y = 187 } quadTextureSprite = "GFX_button_75_24" clicksound = "tab_click" 
+			buttonText = "boep_auto_establish_add_10_percent_max_cost" font = "cg_16b" buttonFont = "cg_16b" #text_color_code = "E"
+		}
+		effectButtonType = {
+			name = "boep_auto_establish_add_100_percent_max_cost" effect = "boep_auto_establish_add_100_percent_max_cost"
+			position = { x= 770 y = 187 } quadTextureSprite = "GFX_button_75_24" clicksound = "tab_click" 
+			buttonText = "boep_auto_establish_add_100_percent_max_cost" font = "cg_16b" buttonFont = "cg_16b" #text_color_code = "E"
+		}
+		effectButtonType = {
+			name = "boep_auto_establish_remove_10_percent_max_cost" effect = "boep_auto_establish_remove_10_percent_max_cost"
+			position = { x= 690 y = 213 } quadTextureSprite = "GFX_button_75_24" clicksound = "tab_click" 
+			buttonText = "boep_auto_establish_remove_10_percent_max_cost" font = "cg_16b" buttonFont = "cg_16b" #text_color_code = "E"
+		}
+		effectButtonType = {
+			name = "boep_auto_establish_remove_100_percent_max_cost" effect = "boep_auto_establish_remove_100_percent_max_cost"
+			position = { x= 770 y = 213 } quadTextureSprite = "GFX_button_75_24" clicksound = "tab_click" 
+			buttonText = "boep_auto_establish_remove_100_percent_max_cost" font = "cg_16b" buttonFont = "cg_16b" #text_color_code = "E"
+		}
+
+		effectButtonType = {
+			name = "boep_auto_establish_min_influence_max_cost" effect = "boep_no_cklick"
+			position = { x= 830 y = 160 } quadTextureSprite = "GFX_tiles_dark_area_cut_8" size = { x = 180 y = 32 }			
+			buttonText = "boep_auto_establish_min_influence_max_cost" font = "cg_16b" buttonFont = "cg_16b"			
+		}
+
+		### Building Automation
+
+		effectButtonType = {
+			name = "boep_checkbox_deactivate_auto_build" effect = "boep_checkbox_deactivate_auto_build"
+			frame = 2 position = { x= 50 y = 340 } quadTextureSprite = "GFX_checkbox_20_20_01" clicksound = "tab_click" 
+		}
+		effectButtonType = {
+			name = "boep_checkbox_activate_auto_build" effect = "boep_checkbox_activate_auto_build"
+			position = { x= 50 y = 340 } quadTextureSprite = "GFX_checkbox_20_20_01" clicksound = "tab_click" 
+		}
+		instantTextBoxType = {
+			name = "boep_auto_build_desc"
+			position = { x = 86 y = 346 }
+			maxWidth = 150
+			alwaysTransparent = yes
+			text_color_code = "E"				
+			format = left
+			font = "cg_16b"
+			text = "boep_auto_build_desc"				
+		}		
+
+		instantTextBoxType = {
+			name = "boep_auto_build_template"
+			position = { x = 50 y = 375 }	
+			maxWidth = 400		
+			alwaysTransparent = yes			
+			format = left
+			font = "cg_16b"
+			text = "boep_auto_build_template"			
+		}
+		
+
+		###
+
+		containerWindowType = {
+			name = "boep_minerals_limit_window"
+			position = { x=50 y=400 }
+			size = { width = 180 height = 180 }
+
+			instantTextBoxType = {
+				name = "boep_minimum_resources_after_auto_build"
+				position = { x = 0 y = 20 }	
+				maxWidth = 200		
+				alwaysTransparent = yes			
+				format = left
+				font = "cg_16b"
+				multiline = yes
+				text = "boep_minimum_resources_after_auto_build"			
+			}
+
+			effectButtonType = {
+				name = "boep_auto_build_min_minerals" effect = "boep_no_cklick"
+				position = { x= 0 y = 60 } quadTextureSprite = "GFX_tiles_dark_area_cut_8" size = { x = 180 y = 32 }			
+				buttonText = "boep_auto_build_min_minerals" font = "cg_16b" buttonFont = "cg_16b"			
+			}
+
+			effectButtonType = {
+				name = "boep_auto_build_add_100_minerals" effect = "boep_auto_build_add_100_minerals"
+				position = { x= 0 y = 87 } quadTextureSprite = "GFX_button_75_24" clicksound = "tab_click" 
+				buttonText = "boep_auto_build_add_100_minerals" font = "cg_16b" buttonFont = "cg_16b" #text_color_code = "E"
+			}
+			effectButtonType = {
+				name = "boep_auto_build_add_1000_minerals" effect = "boep_auto_build_add_1000_minerals"
+				position = { x= 80 y = 87 } quadTextureSprite = "GFX_button_75_24" clicksound = "tab_click" 
+				buttonText = "boep_auto_build_add_1000_minerals" font = "cg_16b" buttonFont = "cg_16b" #text_color_code = "E"
+			}
+			effectButtonType = {
+				name = "boep_auto_build_remove_100_minerals" effect = "boep_auto_build_remove_100_minerals"
+				position = { x= 0 y = 113 } quadTextureSprite = "GFX_button_75_24" clicksound = "tab_click" 
+				buttonText = "boep_auto_build_remove_100_minerals" font = "cg_16b" buttonFont = "cg_16b" #text_color_code = "E"
+			}
+			effectButtonType = {
+				name = "boep_auto_build_remove_1000_minerals" effect = "boep_auto_build_remove_1000_minerals"
+				position = { x= 80 y = 113 } quadTextureSprite = "GFX_button_75_24" clicksound = "tab_click" 
+				buttonText = "boep_auto_build_remove_1000_minerals" font = "cg_16b" buttonFont = "cg_16b" #text_color_code = "E"
+			}
+
+		
+
+		}
+
+		containerWindowType = {
+			name = "boep_build_checkboxes_window"
+			position = { x=650 y=346 }
+			size = { width = 180 height = 180 }
+
+			instantTextBoxType = {
+				name = "boep_build_checkboxes"
+				position = { x = 50 y = 0 }	
+				maxWidth = 200		
+				alwaysTransparent = yes			
+				format = left
+				font = "cg_16b"
+				multiline = yes
+				text = "boep_build_checkboxes"	
+				text_color_code = "E"		
+			}
+	# message yes/no
+			# replace yes/no
+			# only if upkeep yes/no
+	
+			effectButtonType = {
+				name = "boep_checkbox_deactivate_auto_build_messages" effect = "boep_checkbox_deactivate_auto_build_messages"
+				frame = 2 position = { x= 50 y = 30 } quadTextureSprite = "GFX_checkbox_20_20_01" clicksound = "tab_click" 
+			}
+			effectButtonType = {
+				name = "boep_checkbox_activate_auto_build_messages" effect = "boep_checkbox_activate_auto_build_messages"
+				position = { x= 50 y = 30 } quadTextureSprite = "GFX_checkbox_20_20_01" clicksound = "tab_click" 
+			}
+			instantTextBoxType = {
+				name = "boep_auto_build_messages"
+				position = { x = 86 y = 36 }
+				maxWidth = 300
+				alwaysTransparent = yes
+				text_color_code = "E"				
+				format = left
+				font = "cg_16b"
+				text = "boep_auto_build_messages"			
+			}		
+			effectButtonType = {
+				name = "boep_checkbox_deactivate_auto_build_upkeep_check" effect = "boep_checkbox_deactivate_auto_build_upkeep_check"
+				frame = 2 position = { x= 50 y = 60 } quadTextureSprite = "GFX_checkbox_20_20_01" clicksound = "tab_click" 
+			}
+			effectButtonType = {
+				name = "boep_checkbox_activate_auto_build_upkeep_check" effect = "boep_checkbox_activate_auto_build_upkeep_check"
+				position = { x= 50 y = 60 } quadTextureSprite = "GFX_checkbox_20_20_01" clicksound = "tab_click" 
+			}
+			instantTextBoxType = {
+				name = "boep_auto_build_upkeep_check"
+				position = { x = 86 y = 66 }
+				maxWidth = 300
+				alwaysTransparent = yes
+				text_color_code = "E"				
+				format = left
+				font = "cg_16b"
+				text = "boep_auto_build_upkeep_check"			
+			}		
+			effectButtonType = {
+				name = "boep_checkbox_deactivate_auto_build_may_replace" effect = "boep_checkbox_deactivate_auto_build_may_replace"
+				frame = 2 position = { x= 50 y = 90 } quadTextureSprite = "GFX_checkbox_20_20_01" clicksound = "tab_click" 
+			}
+			effectButtonType = {
+				name = "boep_checkbox_activate_auto_build_may_replace" effect = "boep_checkbox_activate_auto_build_may_replace"
+				position = { x= 50 y = 90 } quadTextureSprite = "GFX_checkbox_20_20_01" clicksound = "tab_click" 
+			}
+			instantTextBoxType = {
+				name = "boep_auto_build_may_replace"
+				position = { x = 86 y = 96 }
+				maxWidth = 300
+				alwaysTransparent = yes
+				text_color_code = "E"				
+				format = left
+				font = "cg_16b"
+				text = "boep_auto_build_may_replace"			
+			}	
+		}
+
+		### PORTRAIT ###
+
+		containerWindowType = {
+			name = "portrait_background"
+			position = { x = -2217 y = 45 }
+			size = { width = 677 height = 350 }
+			clipping = yes
+			
+			iconType = {
+				name = "event_picture"
+				spriteType = "GFX_diplomacy_portrait_frame"
+				position = { x = -6 y = -5 }
+			}
+			
+			iconType = {
+				name = "portrait"
+				position = { x = 250 y = 0 }
+				spriteType = "GFX_portrait_character"
+			}	
+		}
+		
+		containerWindowType = {
+			name = "portrait"
+			position = { x = -2217 y = 45 }
+			size = { width = 677 height = 350 }
+			clipping = yes
+			
+			iconType = {
+				name = "portrait"
+				spriteType = "GFX_portrait_gamesetup_mask"
+				alwaysTransparent = yes
+			}
+					
+			iconType = {
+				name = "black_frame"
+				spriteType = "GFX_diplomacy_portrait_shadow_frame"
+				position = { x = -4 y = -5}
+				alwaysTransparent = yes
+			}
+			
+			iconType = {
+				name = "stripes_1"
+				spriteType = "GFX_diplomacy_stripes_2"
+				alwaysTransparent = yes
+			}
+				
+			iconType = {
+				name = "city_frame"
+				spriteType = "GFX_diplomacy_portrait_frame"
+				position = { x = -6 y = -5 }
+				alwaysTransparent = yes
+			}
+		}
+
+		### EMPIRE INFO ###
+		
+		iconType = {
+			name = "empire_info_bg"
+			spriteType = "GFX_diplomacy_dark_fade_bg"
+			position = { x = -2233 y = 64 }
+			alwaysTransparent = yes
+		}
+
+		instantTextBoxType={
+			name = "empire_name"
+			font = "malgun_goth_24"
+			text = "Kammarian Galactic Concordat"
+			position = { x = -2245 y = 70 }
+			maxWidth = 450
+			maxHeight = 16
+			format = LEFT
+			text_color_code = "E"
+			fixedsize = yes
+		}
+
+		instantTextBoxType={
+			name = "empire_government_type"
+			font = "cg_16b"
+			text = "Autocracy"
+			position = { x = -2245 y = 95	}
+			maxWidth = 250
+			maxHeight = 16
+			format = LEFT
+			fixedsize = yes
+			text_color_code = "Y"
+		}
+		
+		instantTextBoxType={
+			name = "empire_personality_type"
+			font = "cg_16b"
+			text = "Despicable Neutrals"
+			position = { x = -2245 y = 112	}
+			maxWidth = 250
+			maxHeight = 16
+			format = LEFT
+			fixedsize = yes
+		}
+
+		OverlappingElementsBoxType = {
+			name = "empire_ethics_icons"
+			position = { x = -2245 y = 138 }
+			size = { x = 240 y = 30 }
+			spacing = 2.0
+			format = left
+		}
+
+		buttonType = {
+			name = "empire_flag"
+			quadTextureSprite = "GFX_empire_flag_128"
+			position = { x = -2225 y = 235 }
+			orientation = UPPER_LEFT
+		}
+		
+		containerWindowType = {
+			name = "leader_details"
+			position = { x = 25 y = 75 }
+			
+			containerWindowType = {
+				name = "empire_traits_box"
+				position = { x = 0 y = -5 }
+				size = { width = 210 height = 75 }
+
+				background = {
+					name = "ethics_bg"
+					spriteType = "GFX_tiles_dark_area_cut_8"
+				}
+			}
+			
+			instantTextBoxType = {
+				name = "empire_traits_label"
+				position = { x = 214 y = 37 }
+				font = "cg_16b"
+				maxWidth = 230
+				maxHeight = 20
+				fixedSize = yes
+				format = left
+				#text_color_code = "E"
+				text = "RULER_TRAITS"
+				alwaysTransparent = yes
+			}
+		
+			overlappingElementsBoxType = {
+				name = "leader_traits"
+				position = { x = 215 y = 55 }
+				size = { x = 125 y = 330 }
+			}
+	
+			instantTextBoxType = {
+				name = "leader_name"
+				position = { x = 10 y = 0 }
+				font = "cg_16b"
+				maxWidth = 330
+				maxHeight = 20
+				fixedSize = yes
+				format = left
+				text = "Leader Name"
+				text_color_code = "E"
+			}
+	
+			instantTextBoxType = {
+				name = "leader_species"
+				position = { x = 10 y = 18 }
+				font = "cg_16b"
+				maxWidth = 330
+				maxHeight = 20
+				fixedSize = yes
+				text = "Leader Species"
+				format = left
+			}
+		}
+
+		### OPINION
+		containerWindowType = {
+			name = "opinion_window"
+			position = { x = 27 y = 110 }
+			size = { width = 94 height = 30 }
+			
+			# Use this for tooltip area, picture comes from somewhere else
+			background = {
+				name = "opinion_bg"
+				spriteType = "GFX_tiled_window_transparent"
+			}
+			
+			iconType = {
+				name = "their_opinion_icon"
+				spriteType = "GFX_diplomacy_opinion"
+				position = { x = 7 y = 4 }
+				alwaysTransparent = yes
+			}
+
+			instantTextBoxType = {
+				name = "their_opinion"
+				font = "cg_16b"
+				maxWidth = 40
+				position = { x = 40 y = 7 }
+				format = left
+				text = "100"
+				alwaysTransparent = yes
+			}
+		}
+		
+		### EVENT DIPLO ###
+		
+		containerWindowType = {
+			name = "EVENT_DIPLO"
+			position = { x = 10 y = 40 }
+			size = { width=1100 height=220 }
+			moveable = no
+			
+
+			instantTextBoxType={
+				name = "action_title"
+				font = "malgun_goth_24"
+				position = { x = 20 y = 10 }
+				maxWidth = 520
+				alwaysTransparent = yes
+			}
+			
+			instantTextBoxType={				
+				name = "action_desc"
+				font = "malgun_goth_24"
+				position = { x = -1490 y = 0 }
+				maxWidth = 0
+				maxHeight = 0
+				Orientation = "UPPER_LEFT"
+				format = center
+				alwaysTransparent = yes
+				text_color_code = "H"				
+			}
+			
+			listboxType = {
+				name = "option_list"
+				position = { x = 300 y = 370 }
+				backGround=""
+				size = { x= 500 y=1000 }
+				
+				spacing = 1
+				scrollbartype = "standardlistbox_slider"
+				autohide_scrollbar = yes
+				borderSize = { x = 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+		}
+	}
+}

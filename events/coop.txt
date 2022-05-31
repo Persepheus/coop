@@ -276,7 +276,9 @@ country_event = {
     is_triggered_only = yes
     trigger = {
         is_ai = no
-        has_federation = no
+        # has_federation = no
+        # is_overlord = no 
+        # is_subject = no
     }
     immediate = {
         removeAllSlotSelectedFlags = yes        
@@ -1537,70 +1539,70 @@ country_event = {
             limit = { has_country_flag = team1 }             
             every_playable_country = {
                 limit = { has_country_flag = team1  NOT = { is_same_empire = prev } }
-                prepare_coop = yes
+                prev = { prepare_coop = yes }
             }            
         }
         every_playable_country = {
             limit = { has_country_flag = team2 }             
             every_playable_country = {
                 limit = { has_country_flag = team2  NOT = { is_same_empire = prev } }
-                prepare_coop = yes
+                prev = { prepare_coop = yes }
             }
         }
         every_playable_country = {
             limit = { has_country_flag = team3 }             
             every_playable_country = {
                 limit = { has_country_flag = team3  NOT = { is_same_empire = prev } }
-                prepare_coop = yes
+                prev = { prepare_coop = yes }
             }
         }
         every_playable_country = {
             limit = { has_country_flag = team4 }             
             every_playable_country = {
                 limit = { has_country_flag = team4  NOT = { is_same_empire = prev } }
-                prepare_coop = yes
+                prev = { prepare_coop = yes }
             }
         }
         every_playable_country = {
             limit = { has_country_flag = team5 }             
             every_playable_country = {
                 limit = { has_country_flag = team5  NOT = { is_same_empire = prev } }
-                prepare_coop = yes
+                prev = { prepare_coop = yes }
             }
         }
         every_playable_country = {
             limit = { has_country_flag = team6 }             
             every_playable_country = {
                 limit = { has_country_flag = team6  NOT = { is_same_empire = prev } }
-                prepare_coop = yes
+                prev = { prepare_coop = yes }
             }
         }
         every_playable_country = {
             limit = { has_country_flag = team7 }             
             every_playable_country = {
                 limit = { has_country_flag = team7  NOT = { is_same_empire = prev } }
-                prepare_coop = yes
+                prev = { prepare_coop = yes }
             }
         }
         every_playable_country = {
             limit = { has_country_flag = team8 }             
             every_playable_country = {
                 limit = { has_country_flag = team8  NOT = { is_same_empire = prev } }
-                prepare_coop = yes
+                prev = { prepare_coop = yes }
             }
         }
         every_playable_country = {
             limit = { has_country_flag = team9 }             
             every_playable_country = {
                 limit = { has_country_flag = team9  NOT = { is_same_empire = prev } }
-                prepare_coop = yes
+                prev = { prepare_coop = yes }
             }
         }
         every_playable_country = {
             limit = { has_country_flag = team10 }             
             every_playable_country = {
                 limit = { has_country_flag = team10  NOT = { is_same_empire = prev } }
-                prepare_coop = yes
+                prev = { prepare_coop = yes }
             }
         }   
         set_global_flag = first_coop_call     
@@ -2017,6 +2019,124 @@ country_event = {
 }
 
 country_event = {
+    id = coop.2000
+    title = coop.2000.name
+    desc = coop.2000.desc
+    picture_event_data = {
+		portrait = root
+		room = root
+	}
+	custom_gui = "coop_event_view"	
+    diplomatic = yes 
+    is_triggered_only = yes
+    trigger = {
+        
+    }
+    immediate = {
+        
+    }
+    option = {
+        name = coop.2000.back
+        default_hide_option = yes  
+        hidden_effect = {
+            remove_country_flag = coop_choose_overlord
+            country_event = {  id = coop.4000 }      
+        }
+    }
+    option = {
+        trigger = { coop_exist_slot = { SLOT = 2 } }
+        name = { text = coop_slot2_is_bulwark trigger = { coop_is_slot = { SLOT = 2 SUBJECT_TYPE = bulwark } } }
+        name = { text = coop_slot2_is_prospectorium trigger = { coop_is_slot = { SLOT = 2 SUBJECT_TYPE = prospectorium } } }
+        name = { text = coop_slot2_is_scholarium trigger = { coop_is_slot = { SLOT = 2 SUBJECT_TYPE = scholarium } } }
+        name = { text = coop_slot2_is_nothing trigger = { nor = { coop_is_slot = { SLOT = 2 SUBJECT_TYPE = bulwark }  coop_is_slot = { SLOT = 2 SUBJECT_TYPE = scholarium } coop_is_slot = { SLOT = 2 SUBJECT_TYPE = prospectorium }  } } }
+        hidden_effect = { coop_change_subject_type = { SLOT = 2 } country_event = {  id = coop.2000 }  }
+    }
+    
+
+    option = {
+        trigger = { coop_exist_slot = { SLOT = 3 } }
+        name = { text = coop_slot3_is_bulwark trigger = { coop_is_slot = { SLOT = 3 SUBJECT_TYPE = bulwark } } }
+        name = { text = coop_slot3_is_prospectorium trigger = { coop_is_slot = { SLOT = 3 SUBJECT_TYPE = prospectorium } } }
+        name = { text = coop_slot3_is_scholarium trigger = { coop_is_slot = { SLOT = 3 SUBJECT_TYPE = scholarium } } }
+        name = { text = coop_slot3_is_nothing trigger = { nor = { coop_is_slot = { SLOT = 3 SUBJECT_TYPE = bulwark }  coop_is_slot = { SLOT = 3 SUBJECT_TYPE = scholarium } coop_is_slot = { SLOT = 3 SUBJECT_TYPE = prospectorium }  } } }
+        hidden_effect = { coop_change_subject_type = { SLOT = 3 } country_event = {  id = coop.2000 }  }
+    }
+    
+
+    option = {
+        trigger = { coop_exist_slot = { SLOT = 4 } }
+        name = { text = coop_slot4_is_bulwark trigger = { coop_is_slot = { SLOT = 4 SUBJECT_TYPE = bulwark } } }
+        name = { text = coop_slot4_is_prospectorium trigger = { coop_is_slot = { SLOT = 4 SUBJECT_TYPE = prospectorium } } }
+        name = { text = coop_slot4_is_scholarium trigger = { coop_is_slot = { SLOT = 4 SUBJECT_TYPE = scholarium } } }
+        name = { text = coop_slot4_is_nothing trigger = { nor = { coop_is_slot = { SLOT = 4 SUBJECT_TYPE = bulwark }  coop_is_slot = { SLOT = 4 SUBJECT_TYPE = scholarium } coop_is_slot = { SLOT = 4 SUBJECT_TYPE = prospectorium }  } } }
+        hidden_effect = { coop_change_subject_type = { SLOT = 4 } country_event = {  id = coop.2000 }  }
+    }
+    
+
+    option = {
+        trigger = { coop_exist_slot = { SLOT = 5 } }
+        name = { text = coop_slot5_is_bulwark trigger = { coop_is_slot = { SLOT = 5 SUBJECT_TYPE = bulwark } } }
+        name = { text = coop_slot5_is_prospectorium trigger = { coop_is_slot = { SLOT = 5 SUBJECT_TYPE = prospectorium } } }
+        name = { text = coop_slot5_is_scholarium trigger = { coop_is_slot = { SLOT = 5 SUBJECT_TYPE = scholarium } } }
+        name = { text = coop_slot5_is_nothing trigger = { nor = { coop_is_slot = { SLOT = 5 SUBJECT_TYPE = bulwark }  coop_is_slot = { SLOT = 5 SUBJECT_TYPE = scholarium } coop_is_slot = { SLOT = 5 SUBJECT_TYPE = prospectorium }  } } }
+        hidden_effect = { coop_change_subject_type = { SLOT = 5 } country_event = {  id = coop.2000 }  }
+    }
+    
+
+    option = {
+        trigger = { coop_exist_slot = { SLOT = 6 } }
+        name = { text = coop_slot6_is_bulwark trigger = { coop_is_slot = { SLOT = 6 SUBJECT_TYPE = bulwark } } }
+        name = { text = coop_slot6_is_prospectorium trigger = { coop_is_slot = { SLOT = 6 SUBJECT_TYPE = prospectorium } } }
+        name = { text = coop_slot6_is_scholarium trigger = { coop_is_slot = { SLOT = 6 SUBJECT_TYPE = scholarium } } }
+        name = { text = coop_slot6_is_nothing trigger = { nor = { coop_is_slot = { SLOT = 6 SUBJECT_TYPE = bulwark }  coop_is_slot = { SLOT = 6 SUBJECT_TYPE = scholarium } coop_is_slot = { SLOT = 6 SUBJECT_TYPE = prospectorium }  } } }
+        hidden_effect = { coop_change_subject_type = { SLOT = 6 } country_event = {  id = coop.2000 }  }
+    }
+    
+
+    option = {
+        trigger = { coop_exist_slot = { SLOT = 7 } }
+        name = { text = coop_slot7_is_bulwark trigger = { coop_is_slot = { SLOT = 7 SUBJECT_TYPE = bulwark } } }
+        name = { text = coop_slot7_is_prospectorium trigger = { coop_is_slot = { SLOT = 7 SUBJECT_TYPE = prospectorium } } }
+        name = { text = coop_slot7_is_scholarium trigger = { coop_is_slot = { SLOT = 7 SUBJECT_TYPE = scholarium } } }
+        name = { text = coop_slot7_is_nothing trigger = { nor = { coop_is_slot = { SLOT = 7 SUBJECT_TYPE = bulwark }  coop_is_slot = { SLOT = 7 SUBJECT_TYPE = scholarium } coop_is_slot = { SLOT = 7 SUBJECT_TYPE = prospectorium }  } } }
+        hidden_effect = { coop_change_subject_type = { SLOT = 7 } country_event = {  id = coop.2000 }  }
+    }
+    
+
+    option = {
+        trigger = { coop_exist_slot = { SLOT = 8 } }
+        name = { text = coop_slot8_is_bulwark trigger = { coop_is_slot = { SLOT = 8 SUBJECT_TYPE = bulwark } } }
+        name = { text = coop_slot8_is_prospectorium trigger = { coop_is_slot = { SLOT = 8 SUBJECT_TYPE = prospectorium } } }
+        name = { text = coop_slot8_is_scholarium trigger = { coop_is_slot = { SLOT = 8 SUBJECT_TYPE = scholarium } } }
+        name = { text = coop_slot8_is_nothing trigger = { nor = { coop_is_slot = { SLOT = 8 SUBJECT_TYPE = bulwark }  coop_is_slot = { SLOT = 8 SUBJECT_TYPE = scholarium } coop_is_slot = { SLOT = 8 SUBJECT_TYPE = prospectorium }  } } }
+        hidden_effect = { coop_change_subject_type = { SLOT = 8 } country_event = {  id = coop.2000 }  }
+    }
+    
+
+    option = {
+        trigger = { coop_exist_slot = { SLOT = 9 } }
+        name = { text = coop_slot9_is_bulwark trigger = { coop_is_slot = { SLOT = 9 SUBJECT_TYPE = bulwark } } }
+        name = { text = coop_slot9_is_prospectorium trigger = { coop_is_slot = { SLOT = 9 SUBJECT_TYPE = prospectorium } } }
+        name = { text = coop_slot9_is_scholarium trigger = { coop_is_slot = { SLOT = 9 SUBJECT_TYPE = scholarium } } }
+        name = { text = coop_slot9_is_nothing trigger = { nor = { coop_is_slot = { SLOT = 9 SUBJECT_TYPE = bulwark }  coop_is_slot = { SLOT = 9 SUBJECT_TYPE = scholarium } coop_is_slot = { SLOT = 9 SUBJECT_TYPE = prospectorium }  } } }
+        hidden_effect = { coop_change_subject_type = { SLOT = 9 } country_event = {  id = coop.2000 }  }
+    }
+    
+
+    option = {
+        trigger = { coop_exist_slot = { SLOT = 10 } }
+        name = { text = coop_slot10_is_bulwark trigger = { coop_is_slot = { SLOT = 10 SUBJECT_TYPE = bulwark } } }
+        name = { text = coop_slot10_is_prospectorium trigger = { coop_is_slot = { SLOT = 10 SUBJECT_TYPE = prospectorium } } }
+        name = { text = coop_slot10_is_scholarium trigger = { coop_is_slot = { SLOT = 10 SUBJECT_TYPE = scholarium } } }
+        name = { text = coop_slot10_is_nothing trigger = { nor = { coop_is_slot = { SLOT = 10 SUBJECT_TYPE = bulwark }  coop_is_slot = { SLOT = 10 SUBJECT_TYPE = scholarium } coop_is_slot = { SLOT = 10 SUBJECT_TYPE = prospectorium }  } } }
+        hidden_effect = { coop_change_subject_type = { SLOT = 10 } country_event = {  id = coop.2000 }  }
+    }
+    
+
+
+}
+
+country_event = {
     id = coop.4000
     title =  coop.4000.title
     desc = coop.4000.desc
@@ -2058,10 +2178,14 @@ country_event = {
     option = {              
         name = useMartialAlliance
         hidden_effect = {  setMartialAlliances = yes }
-    }
+    }    
+    option = { name = coop_overlord allow = {  always = no }    }  
     option = {              
         name = useNoFedButVassals
-        hidden_effect = {  setNoFedButVassals = yes }
+        hidden_effect = { 
+            set_country_flag = coop_choose_overlord
+            country_event = { id = coop.2000 }
+        }
     }
     option = { name = coop_difficulty allow = {  always = no }    }    
     option = {        
@@ -2103,18 +2227,22 @@ country_event = {
 
     after = { 
         hidden_effect = { 
-            remove_country_flag = team1_settings_selected 
-            remove_country_flag = team2_settings_selected 
-            remove_country_flag = team3_settings_selected 
-            remove_country_flag = team4_settings_selected 
-            remove_country_flag = team5_settings_selected 
-            remove_country_flag = team6_settings_selected 
-            remove_country_flag = team7_settings_selected 
-            remove_country_flag = team8_settings_selected 
-            remove_country_flag = team9_settings_selected 
-            remove_country_flag = team10_settings_selected 
+            if = {
+                limit = { not = { has_country_flag = coop_choose_overlord } }
             
-            country_event = { id = coop.1000 }        
+                remove_country_flag = team1_settings_selected 
+                remove_country_flag = team2_settings_selected 
+                remove_country_flag = team3_settings_selected 
+                remove_country_flag = team4_settings_selected 
+                remove_country_flag = team5_settings_selected 
+                remove_country_flag = team6_settings_selected 
+                remove_country_flag = team7_settings_selected 
+                remove_country_flag = team8_settings_selected 
+                remove_country_flag = team9_settings_selected 
+                remove_country_flag = team10_settings_selected 
+                
+                country_event = { id = coop.1000 }        
+            }
         }
     }
 }

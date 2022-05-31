@@ -23,3 +23,52 @@
 is_not_yet_in_team = {
 	AND = { exists = event_target:country$COUNTRY$ event_target:country$COUNTRY$ = { has_federation = no not = { has_country_flag = is_already_in_team } } } 
 }
+
+coop_exist_slot = { 	
+	OR = {
+		coop_exist_check_slot = { NUM = 1 SLOT = $SLOT$ }
+		coop_exist_check_slot = { NUM = 2 SLOT = $SLOT$ }
+		coop_exist_check_slot = { NUM = 3 SLOT = $SLOT$ }
+		coop_exist_check_slot = { NUM = 4 SLOT = $SLOT$ }
+		coop_exist_check_slot = { NUM = 5 SLOT = $SLOT$ }
+		coop_exist_check_slot = { NUM = 6 SLOT = $SLOT$ }
+		coop_exist_check_slot = { NUM = 7 SLOT = $SLOT$ }
+		coop_exist_check_slot = { NUM = 8 SLOT = $SLOT$ }
+		coop_exist_check_slot = { NUM = 9 SLOT = $SLOT$ }
+		coop_exist_check_slot = { NUM = 10 SLOT = $SLOT$ }
+	}
+}
+
+coop_exist_check_slot = {
+	has_country_flag = team$NUM$_settings_selected	
+	exists = event_target:team$NUM$_slot$SLOT$
+	event_target:team$NUM$_slot$SLOT$ = { has_country_flag = team$NUM$ }
+}
+
+coop_is_slot = { 	
+	OR = {
+		coop_is_slot_check_$SUBJECT_TYPE$ = { NUM = 1 SLOT = $SLOT$ }
+		coop_is_slot_check_$SUBJECT_TYPE$ = { NUM = 2 SLOT = $SLOT$ }
+		coop_is_slot_check_$SUBJECT_TYPE$ = { NUM = 3 SLOT = $SLOT$ }
+		coop_is_slot_check_$SUBJECT_TYPE$ = { NUM = 4 SLOT = $SLOT$ }
+		coop_is_slot_check_$SUBJECT_TYPE$ = { NUM = 5 SLOT = $SLOT$ }
+		coop_is_slot_check_$SUBJECT_TYPE$ = { NUM = 6 SLOT = $SLOT$ }
+		coop_is_slot_check_$SUBJECT_TYPE$ = { NUM = 7 SLOT = $SLOT$ }
+		coop_is_slot_check_$SUBJECT_TYPE$ = { NUM = 8 SLOT = $SLOT$ }
+		coop_is_slot_check_$SUBJECT_TYPE$ = { NUM = 9 SLOT = $SLOT$ }
+		coop_is_slot_check_$SUBJECT_TYPE$ = { NUM = 10 SLOT = $SLOT$ }
+	}
+}
+
+coop_is_slot_check_bulwark = {
+	has_country_flag = team$NUM$_settings_selected
+	has_country_flag = team$NUM$_slot$SLOT$_is_bulwark
+}
+coop_is_slot_check_prospectorium = {
+	has_country_flag = team$NUM$_settings_selected
+	has_country_flag = team$NUM$_slot$SLOT$_is_prospectorium
+}
+coop_is_slot_check_scholarium = {
+	has_country_flag = team$NUM$_settings_selected
+	has_country_flag = team$NUM$_slot$SLOT$_is_scholarium
+}
