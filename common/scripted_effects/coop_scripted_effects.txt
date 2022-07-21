@@ -197,7 +197,8 @@ set_coop_difficulty_by_team = {
             has_global_flag = team$NUM$isAdvanced
         }
         every_country = { 
-            limit = { has_country_flag = team$NUM$  OR = { is_ai = yes NOT = { has_global_flag = player_is_not_strong } } }
+            limit = { NOT = { has_country_flag = coop_is_advanced } has_country_flag = team$NUM$  OR = { is_ai = yes NOT = { has_global_flag = player_is_not_strong } } }
+            set_country_flag = coop_is_advanced
             random_list = {
                 1 = { set_variable = { which = "coop_target_number_of_systems" value = 4 } }			
                 2 = { set_variable = { which = "coop_target_number_of_systems" value = 5 } }			
@@ -213,7 +214,8 @@ set_coop_difficulty_by_team = {
             has_global_flag = team$NUM$isSuperior
         }
         every_country = { 
-            limit = { has_country_flag = team$NUM$  OR = { is_ai = yes NOT = { has_global_flag = player_is_not_strong } } }
+            limit = { NOT = { has_country_flag = coop_is_superior }  has_country_flag = team$NUM$  OR = { is_ai = yes NOT = { has_global_flag = player_is_not_strong } } }
+            set_country_flag = coop_is_superior
             random_list = {
 				1 = { set_variable = { which = "coop_target_number_of_systems" value = 8 } }			
 				2 = { set_variable = { which = "coop_target_number_of_systems" value = 10 } }			
@@ -245,8 +247,8 @@ set_coop_difficulty_by_team = {
             has_global_flag = team$NUM$isOverwhelming
         }
         every_country = { 
-            limit = { has_country_flag = team$NUM$  OR = { is_ai = yes NOT = { has_global_flag = player_is_not_strong } } }
-
+            limit = { NOT = { has_country_flag = coop_is_overwhelming }  has_country_flag = team$NUM$  OR = { is_ai = yes NOT = { has_global_flag = player_is_not_strong } } }
+            set_country_flag = coop_is_overwhelming 
             random_list = {
 				1 = { set_variable = { which = "coop_target_number_of_systems" value = 16 } }			
 				2 = { set_variable = { which = "coop_target_number_of_systems" value = 20 } }			
