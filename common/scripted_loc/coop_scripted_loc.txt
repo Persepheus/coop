@@ -82,7 +82,7 @@ defined_text = { # Country/leader/pop/species scope
 		trigger = {
 			NOT = { has_ethic = ethic_xenophobe }
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -97,7 +97,7 @@ defined_text = { # Country/leader/pop/species scope
 		trigger = {
 			NOT = { has_ethic = ethic_xenophile }
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -112,7 +112,7 @@ defined_text = { # Country/leader/pop/species scope
 		trigger = {
 			NOT = { has_ethic = ethic_militarist }
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -127,7 +127,7 @@ defined_text = { # Country/leader/pop/species scope
 		trigger = {
 			NOT = { has_ethic = ethic_pacifist }
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -142,7 +142,7 @@ defined_text = { # Country/leader/pop/species scope
 		trigger = {
 			NOT = { has_ethic = ethic_spiritualist }
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -157,7 +157,7 @@ defined_text = { # Country/leader/pop/species scope
 		trigger = {
 			NOT = { has_ethic = ethic_materialist }
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -172,7 +172,7 @@ defined_text = { # Country/leader/pop/species scope
 		trigger = {
 			NOT = { has_ethic = ethic_authoritarian }
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -187,7 +187,7 @@ defined_text = { # Country/leader/pop/species scope
 		trigger = {
 			NOT = { has_ethic = ethic_egalitarian }
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 
@@ -204,7 +204,7 @@ defined_text = { # Country/leader/pop/species scope
 		trigger = {
 			NOT = { has_ethic = ethic_fanatic_xenophobe }
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -219,7 +219,7 @@ defined_text = { # Country/leader/pop/species scope
 		trigger = {
 			NOT = { has_ethic = ethic_fanatic_xenophile }
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -234,7 +234,7 @@ defined_text = { # Country/leader/pop/species scope
 		trigger = {
 			NOT = { has_ethic = ethic_fanatic_militarist }
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -249,7 +249,7 @@ defined_text = { # Country/leader/pop/species scope
 		trigger = {
 			NOT = { has_ethic = ethic_fanatic_pacifist }
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -264,7 +264,7 @@ defined_text = { # Country/leader/pop/species scope
 		trigger = {
 			NOT = { has_ethic = ethic_fanatic_spiritualist }
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -279,7 +279,7 @@ defined_text = { # Country/leader/pop/species scope
 		trigger = {
 			NOT = { has_ethic = ethic_fanatic_materialist }
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -294,7 +294,7 @@ defined_text = { # Country/leader/pop/species scope
 		trigger = {
 			NOT = { has_ethic = ethic_fanatic_authoritarian }
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -309,7 +309,7 @@ defined_text = { # Country/leader/pop/species scope
 		trigger = {
 			NOT = { has_ethic = ethic_fanatic_egalitarian }
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -324,7 +324,7 @@ defined_text = { # Country/leader/pop/species scope
 		trigger = {
 			NOT = { has_ethic = ethic_gestalt_consciousness }
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 
@@ -340,7 +340,7 @@ defined_text = { # Country/leader/pop/species scope
 		trigger = {
 			NOT = { has_authority = auth_democratic }
 		}
-		localization_key = empty
+		localization_key = ""
 	}	
 }
 defined_text = { # Country/leader/pop/species scope
@@ -355,7 +355,7 @@ defined_text = { # Country/leader/pop/species scope
 		trigger = {
 			NOT = { has_authority = auth_oligarchic }
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -370,7 +370,7 @@ defined_text = { # Country/leader/pop/species scope
 		trigger = {
 			NOT = { has_authority = auth_dictatorial }
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -385,7 +385,7 @@ defined_text = { # Country/leader/pop/species scope
 		trigger = {
 			NOT = { has_authority = auth_imperial }
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -400,7 +400,7 @@ defined_text = { # Country/leader/pop/species scope
 		trigger = {
 			NOT = { has_authority = auth_corporate }
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -415,7 +415,7 @@ defined_text = { # Country/leader/pop/species scope
 		trigger = {
 			NOT = { has_authority = auth_machine_intelligence }
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -430,7 +430,7 @@ defined_text = { # Country/leader/pop/species scope
 		trigger = {
 			NOT = { has_authority = auth_hive_mind }
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 
@@ -446,7 +446,7 @@ defined_text = { # Country/leader/pop/species scope
 		trigger = {
 			is_ai = yes
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -465,7 +465,7 @@ defined_text = { # Country/leader/pop/species scope
 				count_owned_starbase = { count = 1 }
 			}
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 
@@ -505,7 +505,7 @@ defined_text = { # Country/leader/pop/species scope
 				}
 			}
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -546,7 +546,7 @@ defined_text = { # Country/leader/pop/species scope
 				}
 			}
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -587,7 +587,7 @@ defined_text = { # Country/leader/pop/species scope
 				}
 			}
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -628,7 +628,7 @@ defined_text = { # Country/leader/pop/species scope
 				}
 			}
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -669,7 +669,7 @@ defined_text = { # Country/leader/pop/species scope
 				}
 			}
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -708,7 +708,7 @@ defined_text = { # Country/leader/pop/species scope
 				}
 			}
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 
@@ -761,7 +761,7 @@ defined_text = { # Country/leader/pop/species scope
 				has_global_flag = team1UseNoFedButVassal
 			}
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 
@@ -814,7 +814,7 @@ defined_text = { # Country/leader/pop/species scope
 				has_global_flag = team2UseNoFedButVassal
 			}
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 
@@ -867,7 +867,7 @@ defined_text = { # Country/leader/pop/species scope
 				has_global_flag = team3UseNoFedButVassal
 			}
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 
@@ -920,7 +920,7 @@ defined_text = { # Country/leader/pop/species scope
 				has_global_flag = team4UseNoFedButVassal
 			}
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 
@@ -973,7 +973,7 @@ defined_text = { # Country/leader/pop/species scope
 				has_global_flag = team5UseNoFedButVassal
 			}
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 
@@ -1026,7 +1026,7 @@ defined_text = { # Country/leader/pop/species scope
 				has_global_flag = team6UseNoFedButVassal
 			}
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 
@@ -1079,7 +1079,7 @@ defined_text = { # Country/leader/pop/species scope
 				has_global_flag = team7UseNoFedButVassal
 			}
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 
@@ -1132,7 +1132,7 @@ defined_text = { # Country/leader/pop/species scope
 				has_global_flag = team8UseNoFedButVassal
 			}
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 
@@ -1185,7 +1185,7 @@ defined_text = { # Country/leader/pop/species scope
 				has_global_flag = team9UseNoFedButVassal
 			}
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 
@@ -1238,7 +1238,7 @@ defined_text = { # Country/leader/pop/species scope
 				has_global_flag = team10UseNoFedButVassal
 			}
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 
@@ -1269,7 +1269,7 @@ defined_text = { # Country/leader/pop/species scope
 				has_global_flag = team1isImpossible
 			}
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -1299,7 +1299,7 @@ defined_text = { # Country/leader/pop/species scope
 				has_global_flag = team2isImpossible
 			}
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -1329,7 +1329,7 @@ defined_text = { # Country/leader/pop/species scope
 				has_global_flag = team3isImpossible
 			}
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -1359,7 +1359,7 @@ defined_text = { # Country/leader/pop/species scope
 				has_global_flag = team4isImpossible
 			}
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -1389,7 +1389,7 @@ defined_text = { # Country/leader/pop/species scope
 				has_global_flag = team5isImpossible
 			}
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -1419,7 +1419,7 @@ defined_text = { # Country/leader/pop/species scope
 				has_global_flag = team6isImpossible
 			}
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -1449,7 +1449,7 @@ defined_text = { # Country/leader/pop/species scope
 				has_global_flag = team7isImpossible
 			}
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -1479,7 +1479,7 @@ defined_text = { # Country/leader/pop/species scope
 				has_global_flag = team8isImpossible
 			}
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -1509,7 +1509,7 @@ defined_text = { # Country/leader/pop/species scope
 				has_global_flag = team9isImpossible
 			}
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -1539,7 +1539,7 @@ defined_text = { # Country/leader/pop/species scope
 				has_global_flag = team10isImpossible
 			}
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 
@@ -1565,7 +1565,7 @@ defined_text = { # Country/leader/pop/species scope
 				has_global_flag = team1isOverwhelming
 			}
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -1590,7 +1590,7 @@ defined_text = { # Country/leader/pop/species scope
 				has_global_flag = team2isOverwhelming
 			}
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -1615,7 +1615,7 @@ defined_text = { # Country/leader/pop/species scope
 				has_global_flag = team3isOverwhelming
 			}
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -1640,7 +1640,7 @@ defined_text = { # Country/leader/pop/species scope
 				has_global_flag = team4isOverwhelming
 			}
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -1665,7 +1665,7 @@ defined_text = { # Country/leader/pop/species scope
 				has_global_flag = team5isOverwhelming
 			}
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -1690,7 +1690,7 @@ defined_text = { # Country/leader/pop/species scope
 				has_global_flag = team6isOverwhelming
 			}
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -1715,7 +1715,7 @@ defined_text = { # Country/leader/pop/species scope
 				has_global_flag = team7isOverwhelming
 			}
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -1740,7 +1740,7 @@ defined_text = { # Country/leader/pop/species scope
 				has_global_flag = team8isOverwhelming
 			}
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -1765,7 +1765,7 @@ defined_text = { # Country/leader/pop/species scope
 				has_global_flag = team9isOverwhelming
 			}
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
 defined_text = { # Country/leader/pop/species scope
@@ -1790,6 +1790,6 @@ defined_text = { # Country/leader/pop/species scope
 				has_global_flag = team10isOverwhelming
 			}
 		}
-		localization_key = empty
+		localization_key = ""
 	}
 }
