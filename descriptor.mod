@@ -1,4 +1,4 @@
-version="3.1.1"
+version="3.1.2"
 tags={
 	"Balance"
 	"Galaxy Generation"
@@ -10,5 +10,5 @@ tags={
 }
 picture="coop.jpg"
 name="Coop: Start in Teams"
-supported_version="3.4.*"
+supported_version="3.6.*"
 remote_file_id="1775403078"
